@@ -4075,10 +4075,10 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_TM04_CALM_MIND] =
+    [ITEM_TM04_TRICK_ROOM] =
     {
         .name = _("TM04"),
-        .itemId = ITEM_TM04_CALM_MIND,
+        .itemId = ITEM_TM04_TRICK_ROOM,
         .price = 3000,
         .description = sTM04Desc,
         .importance = 1,

@@ -10137,8 +10137,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM24_THUNDERBOLT)
 											| TMHM(TM06_TOXIC)
 											| TMHM(TM50_WILL_O_WISP)),
-
-											| TMHM(TM50_WILL_O_WISP)
     [SPECIES_DRIFBLIM]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(HM01_CUT)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -14361,8 +14359,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM12_TAUNT)
 											| TMHM(TM46_THIEF)
-											| TMHM(TM06_TOXIC))
-											| TMHM(TM50_WILL_O_WISP),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM50_WILL_O_WISP)),
 
     [SPECIES_LAMPENT]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM04_TRICK_ROOM)
@@ -14385,8 +14383,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM12_TAUNT)
 											| TMHM(TM46_THIEF)
-											| TMHM(TM06_TOXIC))
-											| TMHM(TM50_WILL_O_WISP),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM50_WILL_O_WISP)),
 
     [SPECIES_CHANDELURE]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM04_TRICK_ROOM)
