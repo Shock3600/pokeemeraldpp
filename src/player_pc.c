@@ -175,7 +175,7 @@ static const struct ItemSlot gNewGamePCItems[] =
 	{ ITEM_AERODACTYLITE, 1},
 	{ ITEM_AGGRONITE, 1},
 	{ ITEM_ALAKAZITE, 1},
-    { ITEM_ALTARIANITE, 1}
+    { ITEM_ALTARIANITE, 1},
 	{ ITEM_AMPHAROSITE, 1},
 	{ ITEM_AUDINITE, 1},
 	{ ITEM_BANETTITE, 1},
