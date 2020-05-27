@@ -1521,14 +1521,15 @@ static const u8 sTM02Desc[] = _(
     "sharp claws.");
 
 static const u8 sTM03Desc[] = _(
-    "Generates an\n"
-    "ultrasonic wave\n"
-    "that may confuse.");
+    "The user plays rough\n"
+	"with the target\n"
+	"and may lower\n"
+	"targets attack.");
 
 static const u8 sTM04Desc[] = _(
-    "Raises SP. ATK and\n"
-    "SP. DEF by focusing\n"
-    "the mind.");
+    "The user makes a\n"
+	"bizarre area where\n"
+	"slower Pokemon move first.");
 
 static const u8 sTM05Desc[] = _(
     "A savage roar that\n"
@@ -1676,9 +1677,10 @@ static const u8 sTM33Desc[] = _(
     "physical attacks.");
 
 static const u8 sTM34Desc[] = _(
-    "Zaps the foe with a\n"
-    "jolt of electricity\n"
-    "that never misses.");
+	"After making it's attack,\n"
+	"the user rushes\n"
+	"back to switch places\n"
+	"with a party Pokemon.");
 
 static const u8 sTM35Desc[] = _(
     "Looses a stream of\n"
@@ -1701,14 +1703,13 @@ static const u8 sTM38Desc[] = _(
     "burn the foe.");
 
 static const u8 sTM39Desc[] = _(
-    "Stops the foe from\n"
-    "moving with rocks.\n"
-    "May lower SPEED.");
+	"Large boulders\n"
+	"are hurled. May\n"
+	"cause flinching.");
 
 static const u8 sTM40Desc[] = _(
-    "An extremely fast\n"
-    "attack that can't\n"
-    "be avoided.");
+    "The user lands\n"
+	"and restores health.");
 
 static const u8 sTM41Desc[] = _(
     "Prevents the foe\n"
@@ -1756,10 +1757,9 @@ static const u8 sTM49Desc[] = _(
     "is trying to use.");
 
 static const u8 sTM50Desc[] = _(
-    "Enables full-power\n"
-    "attack, but sharply\n"
-    "lowers SP. ATK.");
-
+	"Inflicts a burn\n"
+	"on the foe\n"
+	"with intense fire.");
 
 static const u8 sHM01Desc[] = _(
     "Attacks the foe\n"
