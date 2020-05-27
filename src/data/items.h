@@ -4062,10 +4062,10 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_TM03_WATER_PULSE] =
+    [ITEM_TM03_PLAY_ROUGH] =
     {
         .name = _("TM03"),
-        .itemId = ITEM_TM03_WATER_PULSE,
+        .itemId = ITEM_TM03_PLAY_ROUGH,
         .price = 3000,
         .description = sTM03Desc,
         .importance = 1,
@@ -4465,10 +4465,10 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_TM34_SHOCK_WAVE] =
+    [ITEM_TM34_VOLT_SWITCH] =
     {
         .name = _("TM34"),
-        .itemId = ITEM_TM34_SHOCK_WAVE,
+        .itemId = ITEM_TM34_VOLT_SWITCH,
         .price = 3000,
         .description = sTM34Desc,
         .importance = 1,
@@ -4530,10 +4530,10 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_TM39_ROCK_TOMB] =
+    [ITEM_TM39_ROCK_SLIDE] =
     {
         .name = _("TM39"),
-        .itemId = ITEM_TM39_ROCK_TOMB,
+        .itemId = ITEM_TM39_ROCK_SLIDE,
         .price = 3000,
         .description = sTM39Desc,
         .importance = 1,
@@ -4543,10 +4543,10 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_TM40_AERIAL_ACE] =
+    [ITEM_TM40_ROOST] =
     {
         .name = _("TM40"),
-        .itemId = ITEM_TM40_AERIAL_ACE,
+        .itemId = ITEM_TM40_ROOST,
         .price = 3000,
         .description = sTM40Desc,
         .importance = 1,
@@ -4673,10 +4673,10 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_TM50_OVERHEAT] =
+    [ITEM_TM50_WILL_O_WISP] =
     {
         .name = _("TM50"),
-        .itemId = ITEM_TM50_OVERHEAT,
+        .itemId = ITEM_TM50_WILL_O_WISP,
         .price = 3000,
         .description = sTM50Desc,
         .importance = 1,
