@@ -217,7 +217,8 @@ static const struct ItemSlot gNewGamePCItems[] =
 	{ ITEM_SWAMPERTITE, 1},
 	{ ITEM_TYRANITARITE, 1},
 	{ ITEM_VENUSAURITE, 1},
-	{ ITEM_MEGA_BRACELET, 1}
+	{ ITEM_MEGA_BRACELET, 1},
+	{ ITEM_NONE, 0}
 };
 
 const struct MenuAction gMailboxMailOptions[] =
