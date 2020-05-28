@@ -424,6 +424,7 @@ PetalburgCity_Gym_EventScript_NormanBattle:: @ 8204E3B
 	call PetalburgCity_Gym_EventScript_UnlockAllDoors
 	special DrawWholeMapView
 	call PetalburgCity_Gym_EventScript_GiveFacade
+	call PetalburgCity_Gym_EventScript_GiveMega_Ring
 	delay 30
 	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT
 	closemessage
@@ -443,6 +444,12 @@ PetalburgCity_Gym_EventScript_GiveFacade:: @ 8204ED2
 	goto_if_eq Common_EventScript_BagIsFull
 	setflag FLAG_RECEIVED_TM42
 	msgbox PetalburgCity_Gym_Text_ExplainFacade, MSGBOX_DEFAULT
+	return
+	
+PetalburgCity_Gym_EventScript_GiveMega_Ring::
+	msgbox PetalburgCity_Gym_Text_One_Last_Gift, MSGBOX_DEFAULT
+	giveitem ITEM_MEGA_BRACELET
+	msgbox PetalburgCity_Gym_Text_Explain_Mega_Ring
 	return
 
 PetalburgCity_Gym_EventScript_WallysUncleArrivesNorth:: @ 8204EF5
@@ -1382,6 +1389,20 @@ PetalburgCity_Gym_Text_ExplainFacade: @ 8206254
 	.string "or burned.\p"
 	.string "It might be able to turn a bad\n"
 	.string "situation into an advantage.$"
+	
+PetalburgCity_Gym_Text_One_Last_Gift:
+	.string "Now, here is one last gift.\n"
+	.string "You have grown as a trainer,\n"
+	.string "and this will help\n"
+	.string "your POKEMON grow with you.$"
+	
+PetalburgCity_Gym_Text_Explain_Mega_Ring:
+	.string "With this MEGA RING,\n"
+	.string "you can MEGA EVOLVE your\n"
+	.string "POKEMON if they are holding\n"
+	.string "the right MEGA STONE.\p"
+	.string "Press START before\n"
+	.string "selecting a move.$:
 
 PetalburgCity_Gym_Text_DadHappyAndSad: @ 82062FB
 	.string "DAD: As the GYM LEADER, I can't\n"

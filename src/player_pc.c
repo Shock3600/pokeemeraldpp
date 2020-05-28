@@ -214,7 +214,6 @@ static const struct ItemSlot gNewGamePCItems[] =
 	{ ITEM_STEELIXITE, 1},
 	{ ITEM_TYRANITARITE, 1},
 	{ ITEM_VENUSAURITE, 1},
-	{ ITEM_MEGA_BRACELET, 1},
 	{ ITEM_NONE, 0}
 };
 
