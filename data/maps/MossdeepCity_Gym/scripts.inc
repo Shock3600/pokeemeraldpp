@@ -581,9 +581,9 @@ MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis: @ 8221999
 
 MossdeepCity_Gym_Text_ExplainCalmMind: @ 8221A40
 	.string "TATE: That TM04 contains…\n"
-	.string "LIZA: CALM MIND!\p"
-	.string "TATE: It raises SP. ATK and…\n"
-	.string "LIZA: It raises SP. DEF!\p"
+	.string "LIZA: TRICK ROOM!\p"
+	.string "TATE: It lets you turn…\n"
+	.string "LIZA: the table on your opponent!\p"
 	.string "TATE: It's a move that's perfect…\n"
 	.string "LIZA: For PSYCHIC POKéMON!\p"
 	.string "… … … … … …$"

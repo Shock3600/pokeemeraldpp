@@ -254,9 +254,9 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis: @ 82255BE
 
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse: @ 82256C1
 	.string "The TECHNICAL MACHINE I handed you\n"
-	.string "contains WATER PULSE.\p"
-	.string "In use, it will occasionally confuse\n"
-	.string "the target with ultrasonic waves.\p"
+	.string "contains PLAY ROUGH.\p"
+	.string "In use, it will occasionally lower\n"
+	.string "the targets ATTACK while damaging them.\p"
 	.string "… … … … … …$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan: @ 822574D

@@ -212,13 +212,11 @@ RustboroCity_Gym_Text_StoneBadgeInfoTakeThis: @ 8213816
 
 RustboroCity_Gym_Text_ExplainRockTomb: @ 82138B1
 	.string "That TECHNICAL MACHINE, TM39,\n"
-	.string "contains ROCK TOMB.\p"
+	.string "contains ROCK SLIDE.\p"
 	.string "It not only inflicts damage by dropping\n"
-	.string "rocks, it also lowers SPEED.\p"
+	.string "rocks, it also can FLINCH your opponent.\p"
 	.string "If you use a TM, it instantly teaches\n"
-	.string "the move to a POKéMON.\p"
-	.string "Remember, a TM can be used only once,\n"
-	.string "so think before you use it.$"
+	.string "the move to a POKéMON.$"
 
 RustboroCity_Gym_Text_RoxannePostBattle: @ 82139A7
 	.string "Since you are so strong, you should\n"
