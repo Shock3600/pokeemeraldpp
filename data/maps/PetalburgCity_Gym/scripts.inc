@@ -1402,7 +1402,7 @@ PetalburgCity_Gym_Text_Explain_Mega_Ring:
 	.string "POKEMON if they are holding\n"
 	.string "the right MEGA STONE.\p"
 	.string "Press START before\n"
-	.string "selecting a move.$:
+	.string "selecting a move.$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad: @ 82062FB
 	.string "DAD: As the GYM LEADER, I can't\n"
