@@ -706,6 +706,33 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall:: @ 81FA4D6
 	clearflag FLAG_SCOTT_CALL_BATTLE_FRONTIER
 	releaseall
 	end
+	
+LittlerootTown_ProfessorBirchsLab_EventScript_Give_Mega_Stone_1::
+		compare VAR_BIRCH_LAB_STATE, 1
+		call_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_Give_Mega_Stone_2
+		end
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Give_Mega_Stone_2::
+		msgbox LittlerootTown_ProfessorBirchsLab_EventScript_Five_Badges, MSGBOX_DEFAULT
+		switch VAR_STARTER_MON
+		case 0, LittlerootTown_ProfessorBirchsLab_EventScript_Give_Mega_Stone_Sceptile
+		case 1, LittlerootTown_ProfessorBirchsLab_EventScript_Give_Mega_Stone_Blaziken
+		case 2, LittlerootTown_ProfessorBirchsLab_EventScript_Give_Mega_Stone_Swampert
+		setvar VAR_BIRCH_LAB_STATE, 5
+		msgbox LittlerootTown_ProfessorBirchsLab_EventScript_Power_Of_Mega_Stones, MSGBOX_DEFAULT
+		end
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Give_Mega_Stone_Sceptile::
+	giveitem ITEM_SCEPTILITE, 1
+	return
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Give_Mega_Stone_Blaziken::
+	giveitem ITEM_BLAZIKENITE, 1
+	return
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Give_Mega_Stone_Swampert::
+	giveitem ITEM_SWAMPERTITE, 1
+	return
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork: @ 81FA4E2
 	.string "Hunh? PROF. BIRCH?\p"
@@ -1043,3 +1070,16 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall: @ 81FBD1A
 	.string "we meet. I'll be waiting!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
+	
+LittlerootTown_ProfessorBirchsLab_EventScript_Five_Badges:
+	.string "Oh, you've beaten your\n"
+	.string "father and gotten a mega ring?\n"
+	.string "I have a gift for you to celebrate!\n"
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Power_Of_Mega_Stones:
+	.string "If you give your\n"
+	.string "starter this stone,\n"
+	.string "it will unlock a great power\n"
+	.string "in battle when you\n"
+	.string "press start before\n"
+	.string "selecting a move.$"

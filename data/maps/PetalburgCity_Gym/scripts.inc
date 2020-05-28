@@ -413,6 +413,7 @@ PetalburgCity_Gym_EventScript_NormanBattle:: @ 8204E3B
 	setflag FLAG_DEFEATED_PETALBURG_GYM
 	setvar VAR_PETALBURG_GYM_STATE, 7
 	setflag FLAG_BADGE05_GET
+	setvar VAR_BIRCH_LAB_STATE, 1
 	special ResetHealLocationFromDewford
 	call EventScript_HideMrBriney
 	setflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
