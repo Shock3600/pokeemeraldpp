@@ -79,8 +79,15 @@ VerdanturfTown_WandasHouse_EventScript_WallysAuntAnythingHappened:: @ 820297F
 
 VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande:: @ 8202989
 	msgbox VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande, MSGBOX_DEFAULT
+	call_if_unset FLAG_WANDA_GIVE_STONE, VerdanturfTown_WandasHouse_EventScript_Give_Mega_Stone
 	release
 	end
+	
+VerdanturfTown_WandasHouse_EventScript_Give_Mega_Stone::
+	msgbox VerdanturfTown_WandasHouse_Text_Thanks_For_Wally, MSGBOX_DEFAULT
+	giveitem ITEM_GARDEVOIRITE, 1
+	setflag FLAG_WANDA_GIVE_STONE
+	return
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeech: @ 8202993
 	.string "WALLY: I lost to you, {PLAYER}, but I'm\n"
@@ -166,3 +173,8 @@ VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande: @ 8202FDB
 	.string "His parents in PETALBURG would be\n"
 	.string "astonished to hear that!$"
 
+VerdanturfTown_WandasHouse_Text_Thanks_For_Wally:
+	.string "Thank you for helping\n"
+	.string "Wally grow as a person\n"
+	.string "and become stronger.\n"
+	.string "Here's a gift to thannk you.$"
