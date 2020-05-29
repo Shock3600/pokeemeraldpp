@@ -12632,3 +12632,108 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Mawile_Badge07
 	.moves = {MOVE_STEALTH_ROCK, MOVE_PSYCHIC, MOVE_EARTH_POWER, MOVE_GRASS_KNOT}
 	}
 };
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Banette_Champ[] = {
+	{
+	.iv = 200,
+	.lvl = 55,
+	.species = SPECIES_SHEDINJA,
+	.ability = 0,
+	.heldItem = ITEM_FOCUS_SASH,
+	.moves = {MOVE_WILL_O_WISP, MOVE_SHADOW_SNEAK, MOVE_X_SCISSOR, MOVE_PROTECT}
+	},
+    {
+    .iv = 200,
+    .lvl = 58,
+    .species = SPECIES_BANETTE,
+	.ability = 2,
+    .heldItem = ITEM_BANETTITE,
+    .moves = {MOVE_DESTINY_BOND, MOVE_SHADOW_CLAW, MOVE_GUNK_SHOT, MOVE_KNOCK_OFF}
+    },
+	{
+	.iv = 200,
+	.lvl = 57,
+	.species = SPECIES_TENTACRUEL,
+	.ability = 1,
+	.heldItem = ITEM_BLACK_SLUDGE,
+	.moves = {MOVE_SCALD, MOVE_AQUA_RING, MOVE_RAPID_SPIN, MOVE_TOXIC_SPIKES}
+	},
+	{
+	.iv = 200,
+	.lvl = 56,
+	.species = SPECIES_DUSKNOIR,
+	.ability = 0,
+	.heldItem = ITEM_CHOICE_BAND,
+	.moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_SNEAK, MOVE_ICE_PUNCH, MOVE_TRICK}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Banette_Badge08[] = {
+	{
+	.iv = 200,
+	.lvl = 43,
+	.species = SPECIES_SHEDINJA,
+	.ability = 0,
+	.heldItem = ITEM_FOCUS_SASH,
+	.moves = {MOVE_WILL_O_WISP, MOVE_SHADOW_SNEAK, MOVE_X_SCISSOR, MOVE_PROTECT}
+	},
+    {
+    .iv = 200,
+    .lvl = 46,
+    .species = SPECIES_BANETTE,
+	.ability = 2,
+    .heldItem = ITEM_BANETTITE,
+    .moves = {MOVE_DESTINY_BOND, MOVE_SHADOW_CLAW, MOVE_GUNK_SHOT, MOVE_KNOCK_OFF}
+    },
+	{
+	.iv = 200,
+	.lvl = 45,
+	.species = SPECIES_TENTACRUEL,
+	.ability = 1,
+	.heldItem = ITEM_BLACK_SLUDGE,
+	.moves = {MOVE_SCALD, MOVE_AQUA_RING, MOVE_RAPID_SPIN, MOVE_TOXIC_SPIKES}
+	},
+	{
+	.iv = 200,
+	.lvl = 44,
+	.species = SPECIES_DUSKNOIR,
+	.ability = 0,
+	.heldItem = ITEM_CHOICE_BAND,
+	.moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_SNEAK, MOVE_ICE_PUNCH, MOVE_TRICK}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Banette_Badge07[] = {
+	{
+	.iv = 200,
+	.lvl = 39,
+	.species = SPECIES_SHEDINJA,
+	.ability = 0,
+	.heldItem = ITEM_FOCUS_SASH,
+	.moves = {MOVE_WILL_O_WISP, MOVE_SHADOW_SNEAK, MOVE_X_SCISSOR, MOVE_PROTECT}
+	},
+    {
+    .iv = 200,
+    .lvl = 42,
+    .species = SPECIES_BANETTE,
+	.ability = 2,
+    .heldItem = ITEM_BANETTITE,
+    .moves = {MOVE_DESTINY_BOND, MOVE_SHADOW_CLAW, MOVE_GUNK_SHOT, MOVE_KNOCK_OFF}
+    },
+	{
+	.iv = 200,
+	.lvl = 41,
+	.species = SPECIES_TENTACRUEL,
+	.ability = 1,
+	.heldItem = ITEM_BLACK_SLUDGE,
+	.moves = {MOVE_SCALD, MOVE_AQUA_RING, MOVE_RAPID_SPIN, MOVE_TOXIC_SPIKES}
+	},
+	{
+	.iv = 200,
+	.lvl = 40,
+	.species = SPECIES_DUSKNOIR,
+	.ability = 0,
+	.heldItem = ITEM_CHOICE_BAND,
+	.moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_SNEAK, MOVE_ICE_PUNCH, MOVE_TRICK}
+	}
+};

@@ -134,6 +134,45 @@ AbandonedShip_HiddenFloorCorridors_EventScript_TheDoorIsOpen:: @ 8238B1D
 	msgbox AbandonedShip_Text_TheDoorIsOpen, MSGBOX_DEFAULT
 	releaseall
 	end
+	
+AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer::
+	goto_if_set FLAG_BANETTE_GET, AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Defeated
+	goto_if_set FLAG_BADGE07_GET, AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Battle
+	goto_if_set FLAG_BADGE05_GET, AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_So_Close
+	goto_if_set FLAG_BADGE03_GET, AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Not_Bad
+	msgbox AbandonedShip_HiddenFloorCorridors_Text_Weak, MSGBOX_DEFAULT
+	end
+
+AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Battle::
+	goto_if_set FLAG_IS_CHAMPION, AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Champ
+	goto_if_set FLAG_BADGE08_GET, AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Badge08
+	goto AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Badge07
+
+AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_So_Close::
+	msgbox AbandonedShip_HiddenFloorCorridors_Text_So_Close, MSGBOX_DEFAULT
+	end
+	
+AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Not_Bad::
+	msgbox AbandonedShip_HiddenFloorCorridors_Text_Not_Bad, MSGBOX_DEFAULT
+	end
+
+AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Champ::
+	trainerbattle_single TRAINER_BANETTE_CHAMP, AbandonedShip_HiddenFloorCorridors_Text_Battle_Champ, AbandonedShip_HiddenFloorCorridors_Text_Defeat, AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Give_Stone
+	
+AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Badge08::
+	trainerbattle_single TRAINER_BANETTE_BADGE08, AbandonedShip_HiddenFloorCorridors_Text_Battle_Intro, AbandonedShip_HiddenFloorCorridors_Text_Defeat, AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Give_Stone
+	
+AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Badge07::
+	trainerbattle_single TRAINER_BANETTE_BADGE07, AbandonedShip_HiddenFloorCorridors_Text_Battle_Intro, AbandonedShip_HiddenFloorCorridors_Text_Defeat, AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Give_Stone
+	
+AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Give_Stone::
+	giveitem ITEM_BANETTITE, 1
+	setflag FLAG_BANETTE_GET
+	end
+	
+AbandonedShip_HiddenFloorCorridors_EventScript_Mega_Trainer_Defeated::
+	msgbox AbandonedShip_HiddenFloorCorridors_Text_Defeated, MSGBOX_DEFAULT
+	end
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm1DoorIsLocked: @ 8238B27
 	.string "The door is locked.\p"
@@ -157,3 +196,39 @@ AbandonedShip_HiddenFloorCorridors_Text_InsertedKey: @ 8238BF7
 	.string "The inserted KEY stuck fast,\n"
 	.string "but the door opened.$"
 
+AbandonedShip_HiddenFloorCorridors_Text_Weak:
+	.string "You're not even close\n"
+	.string "to my power. Once you're\n"
+	.string "less weak come back to see me.$"
+	
+AbandonedShip_HiddenFloorCorridors_Text_So_Close:
+	.string "You're so close! Once\n"
+	.string "You get a little stronger\n"
+	.string "come back for a fight!$"
+	
+AbandonedShip_HiddenFloorCorridors_Text_Not_Bad:
+	.string "You're not so bad...\n"
+	.string "Maybe in the future we can fight.$"
+	
+AbandonedShip_HiddenFloorCorridors_Text_Battle_Champ:
+	.string "The Champion! I've been\n"
+	.string "looking forward to this.\n"
+	.string "If I win, maybe I'll\n"
+	.string "go challenge the Elite 4 and you!$"
+
+AbandonedShip_HiddenFloorCorridors_Text_Battle_Intro:
+	.string "Now this is a battle\n"
+	.string "I'm looking forward to!\n"
+	.string "Bring it on!$"
+	
+AbandonedShip_HiddenFloorCorridors_Text_Defeat:
+	.string "Wow...\n"
+	.string "You beat me. You truly\n"
+	.string "are great. Use this\n"
+	.string "stone to harness the\n"
+	.string "power of MEGA BANETTE!$"
+	
+AbandonedShip_HiddenFloorCorridors_Text_Defeated:
+	.string "You've already proved\n"
+	.string "your worth! I hope\n"
+	.string "making good use of that MEGA STONE.$"
