@@ -587,6 +587,45 @@ Route111_EventScript_TrainerHillSign:: @ 81F146C
 	msgbox Route111_Text_TrainerHillSign, MSGBOX_SIGN
 	end
 
+Route111_EventScript_Mega_Trainer::
+	goto_if_set FLAG_MAWILE_GET, Route111_EventScript_Mega_Trainer_Defeated
+	goto_if_set FLAG_BADGE07_GET, Route111_EventScript_Mega_Trainer_Battle
+	goto_if_set FLAG_BADGE05_GET, Route111_EventScript_Mega_Trainer_So_Close
+	goto_if_set FLAG_BADGE03_GET, Route111_EventScript_Mega_Trainer_Not_Bad
+	msgbox Route111_Text_Weak, MSGBOX_DEFAULT
+	end
+
+Route111_EventScript_Mega_Trainer_Battle::
+	goto_if_set FLAG_IS_CHAMPION, Route111_EventScript_Mega_Trainer_Champ
+	goto_if_set FLAG_BADGE08_GET, Route111_EventScript_Mega_Trainer_Badge08
+	goto Route111_EventScript_Mega_Trainer_Badge07
+
+Route111_EventScript_Mega_Trainer_So_Close::
+	msgbox Route111_Text_So_Close, MSGBOX_DEFAULT
+	end
+	
+Route111_EventScript_Mega_Trainer_Not_Bad::
+	msgbox Route111_Text_Not_Bad, MSGBOX_DEFAULT
+	end
+
+Route111_EventScript_Mega_Trainer_Champ::
+	trainerbattle_single TRAINER_MAWILE_CHAMP, Route111_Text_Battle_Champ, Route111_Text_Defeat, Route111_EventScript_Mega_Trainer_Give_Stone
+	
+Route111_EventScript_Mega_Trainer_Badge08::
+	trainerbattle_single TRAINER_MAWILE_BADGE08, Route111_Text_Battle_Intro, Route111_Text_Defeat, Route111_EventScript_Mega_Trainer_Give_Stone
+	
+Route111_EventScript_Mega_Trainer_Badge07::
+	trainerbattle_single TRAINER_MAWILE_BADGE07, Route111_Text_Battle_Intro, Route111_Text_Defeat, Route111_EventScript_Mega_Trainer_Give_Stone
+	
+Route111_EventScript_Mega_Trainer_Give_Stone::
+	giveitem ITEM_MAWILITE, 1
+	setflag FLAG_MAWILE_GET
+	end
+	
+Route111_EventScript_Mega_Trainer_Defeated::
+	msgbox Route111_Text_Defeated, MSGBOX_DEFAULT
+	end
+
 Route111_Text_BattleOurFamily: @ 81F1475
 	.string "Hello! I take it you're a traveler.\p"
 	.string "How's this? What do you say to taking\n"
@@ -740,4 +779,40 @@ Route111_Text_TrainerHillSign: @ 81F1D61
 	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"
 	.string "“Scale the heights, you hot-blooded\n"
 	.string "TRAINERS!”$"
+	
+Route111_Text_Weak:
+	.string "You're not even close\n"
+	.string "to my power. Once you're\n"
+	.string "less weak come back to see me.$"
+	
+Route111_Text_So_Close:
+	.string "You're so close! Once\n"
+	.string "You get a little stronger\n"
+	.string "come back for a fight!$"
+	
+Route111_Text_Not_Bad:
+	.string "You're not so bad...\n"
+	.string "Maybe in the future we can fight.$"
+	
+Route111_Text_Battle_Champ:
+	.string "The Champion! I've been\n"
+	.string "looking forward to this.\n"
+	.string "If I win, maybe I'll\n"
+	.string "go challenge the Elite 4 and you!$"
 
+Route111_Text_Battle_Intro:
+	.string "Now this is a battle\n"
+	.string "I'm looking forward to!\n"
+	.string "Bring it on!$"
+	
+Route111_Text_Defeat:
+	.string "Wow...\n"
+	.string "You beat me. You truly\n"
+	.string "are great. Use this\n"
+	.string "stone to harness the\n"
+	.string "power of MEGA MAWILE!$"
+	
+Route111_Text_Defeated:
+	.string "You've already proved\n"
+	.string "your worth! I hope\n"
+	.string "making good use of that MEGA STONE.$"

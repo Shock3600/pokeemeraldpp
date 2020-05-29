@@ -859,8 +859,9 @@
 #define TRAINER_AGGRON_CHAMP                855
 #define TRAINER_AGGRON_BADGE08              856
 #define TRAINER_AGGRON_BADGE07              857
-#define TRAINER_AGGRON_BADGE06              858
-#define TRAINER_AGGRON_BADGE05              859
+#define TRAINER_MAWILE_CHAMP                858
+#define TRAINER_MAWILE_BADGE08              859
+#define TRAINER_MAWILE_BADGE07              860
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled

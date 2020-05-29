@@ -12527,3 +12527,108 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Aggron_Badge07
 	.moves = {MOVE_TOXIC, MOVE_NIGHT_SHADE, MOVE_PROTECT, MOVE_SUBSTITUTE}
 	}
 };
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Mawile_Champ[] = {
+	{
+	.iv = 200,
+	.lvl = 55,
+	.species = SPECIES_CACTURNE,
+	.ability = 0,
+	.heldItem = ITEM_FOCUS_SASH,
+	.moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_SUCKER_PUNCH, MOVE_GIGA_DRAIN}
+	},
+    {
+    .iv = 200,
+    .lvl = 58,
+    .species = SPECIES_MAWILE,
+	.ability = 1,
+    .heldItem = ITEM_MAWILITE,
+    .moves = {MOVE_PLAY_ROUGH, MOVE_IRON_HEAD, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH}
+    },
+	{
+	.iv = 200,
+	.lvl = 57,
+	.species = SPECIES_FLYGON,
+	.ability = 0,
+	.heldItem = ITEM_LUM_BERRY,
+	.moves = {MOVE_U_TURN, MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_IRON_TAIL}
+	},
+	{
+	.iv = 200,
+	.lvl = 56,
+	.species = SPECIES_CLAYDOL,
+	.ability = 0,
+	.heldItem = ITEM_LEFTOVERS,
+	.moves = {MOVE_STEALTH_ROCK, MOVE_PSYCHIC, MOVE_EARTH_POWER, MOVE_GRASS_KNOT}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Mawile_Badge08[] = {
+	{
+	.iv = 200,
+	.lvl = 43,
+	.species = SPECIES_CACTURNE,
+	.ability = 0,
+	.heldItem = ITEM_FOCUS_SASH,
+	.moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_SUCKER_PUNCH, MOVE_GIGA_DRAIN}
+	},
+    {
+    .iv = 200,
+    .lvl = 46,
+    .species = SPECIES_MAWILE,
+	.ability = 1,
+    .heldItem = ITEM_MAWILITE,
+    .moves = {MOVE_PLAY_ROUGH, MOVE_IRON_HEAD, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH}
+    },
+	{
+	.iv = 200,
+	.lvl = 45,
+	.species = SPECIES_FLYGON,
+	.ability = 0,
+	.heldItem = ITEM_LUM_BERRY,
+	.moves = {MOVE_U_TURN, MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_IRON_TAIL}
+	},
+	{
+	.iv = 200,
+	.lvl = 44,
+	.species = SPECIES_CLAYDOL,
+	.ability = 0,
+	.heldItem = ITEM_LEFTOVERS,
+	.moves = {MOVE_STEALTH_ROCK, MOVE_PSYCHIC, MOVE_EARTH_POWER, MOVE_GRASS_KNOT}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Mawile_Badge07[] = {
+	{
+	.iv = 200,
+	.lvl = 39,
+	.species = SPECIES_CACTURNE,
+	.ability = 0,
+	.heldItem = ITEM_FOCUS_SASH,
+	.moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_SUCKER_PUNCH, MOVE_GIGA_DRAIN}
+	},
+    {
+    .iv = 200,
+    .lvl = 42,
+    .species = SPECIES_MAWILE,
+	.ability = 1,
+    .heldItem = ITEM_MAWILITE,
+    .moves = {MOVE_PLAY_ROUGH, MOVE_IRON_HEAD, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH}
+    },
+	{
+	.iv = 200,
+	.lvl = 41,
+	.species = SPECIES_FLYGON,
+	.ability = 0,
+	.heldItem = ITEM_LUM_BERRY,
+	.moves = {MOVE_U_TURN, MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_IRON_TAIL}
+	},
+	{
+	.iv = 200,
+	.lvl = 40,
+	.species = SPECIES_CLAYDOL,
+	.ability = 0,
+	.heldItem = ITEM_LEFTOVERS,
+	.moves = {MOVE_STEALTH_ROCK, MOVE_PSYCHIC, MOVE_EARTH_POWER, MOVE_GRASS_KNOT}
+	}
+};
