@@ -3486,15 +3486,23 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Flannery1[] = 
 static const struct TrainerMonItemCustomMovesCustomAbility sParty_Norman1[] = {
     {
     .iv = 200,
+    .lvl = 26,
+    .species = SPECIES_EXPLOUD,
+	.ability = 2,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .moves = {MOVE_BOOMBURST, MOVE_FLAMETHROWER, MOVE_ICE_BEAM, MOVE_SURF}
+    },
+	{
+    .iv = 200,
     .lvl = 27,
     .species = SPECIES_SWELLOW,
 	.ability = 0,
     .heldItem = ITEM_FLAME_ORB,
-    .moves = {MOVE_BRAVE_BIRD, MOVE_FACADE, MOVE_STEEL_WING, MOVE_ENDEAVOR}
+    .moves = {MOVE_BRAVE_BIRD, MOVE_FACADE, MOVE_STEEL_WING, MOVE_U_TURN}
     },
     {
     .iv = 200,
-    .lvl = 27,
+    .lvl = 28,
     .species = SPECIES_KECLEON,
 	.ability = 2,
     .heldItem = ITEM_EXPERT_BELT,
@@ -3581,53 +3589,79 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_TateAndLiza1[]
     .lvl = 42,
     .species = SPECIES_LUNATONE,
 	.ability = 0,
-    .heldItem = ITEM_HEAT_ROCK,
-    .moves = {MOVE_POWER_GEM, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_LIGHT_SCREEN}
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_POWER_GEM, MOVE_PSYCHIC, MOVE_GRASS_KNOT, MOVE_TRICK_ROOM}
     },
     {
     .iv = 250,
     .lvl = 42,
     .species = SPECIES_SOLROCK,
 	.ability = 0,
-    .heldItem = ITEM_HEAT_ROCK,
-    .moves = {MOVE_SUNNY_DAY, MOVE_SOLAR_BEAM, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_TRICK_ROOM, MOVE_ROCK_SLIDE, MOVE_ZEN_HEADBUTT, MOVE_WILL_O_WISP}
+    },
+    {
+    .iv = 250,
+    .lvl = 43,
+    .species = SPECIES_SLOWBRO,
+	.ability = 2,
+    .heldItem = ITEM_SLOWBRONITE,
+    .moves = {MOVE_PSYCHIC, MOVE_SURF, MOVE_FOCUS_BLAST, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 250,
+    .lvl = 43,
+    .species = SPECIES_SLOWKING,
+	.ability = 2,
+    .heldItem = ITEM_EXPERT_BELT,
+    .moves = {MOVE_PSYCHIC, MOVE_SURF, MOVE_FOCUS_BLAST, MOVE_SHADOW_BALL}
     }
 };
-static const struct TrainerMonItemCustomMoves sParty_Juan1[] = {
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Juan1[] = {
     {
     .iv = 200,
     .lvl = 41,
-    .species = SPECIES_LUVDISC,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_WATER_PULSE, MOVE_ATTRACT, MOVE_SWEET_KISS, MOVE_FLAIL}
+    .species = SPECIES_WIGGLYTUFF,
+	.ability = 0,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .moves = {MOVE_DAZZLING_GLEAM, MOVE_HYPER_VOICE, MOVE_PSYCHIC, MOVE_FIRE_BLAST}
     },
     {
     .iv = 200,
     .lvl = 41,
-    .species = SPECIES_WHISCASH,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_RAIN_DANCE, MOVE_WATER_PULSE, MOVE_AMNESIA, MOVE_EARTHQUAKE}
+    .species = SPECIES_MAWILE,
+	.ability = 1,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SUPER_FANG, MOVE_IRON_HEAD, MOVE_PLAY_ROUGH, MOVE_FOUL_PLAY}
     },
     {
     .iv = 200,
     .lvl = 43,
-    .species = SPECIES_SEALEO,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_AURORA_BEAM, MOVE_WATER_PULSE}
+    .species = SPECIES_STARMIE,
+	.ability = 1,
+    .heldItem = ITEM_EXPERT_BELT,
+    .moves = {MOVE_SCALD, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_ICE_BEAM}
     },
     {
     .iv = 200,
     .lvl = 43,
-    .species = SPECIES_CRAWDAUNT,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_WATER_PULSE, MOVE_CRABHAMMER, MOVE_TAUNT, MOVE_LEER}
+    .species = SPECIES_AZUMARILL,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_BELLY_DRUM, MOVE_AQUA_JET, MOVE_PLAY_ROUGH, MOVE_WATERFALL}
     },
     {
     .iv = 250,
     .lvl = 46,
-    .species = SPECIES_KINGDRA,
-    .heldItem = ITEM_CHESTO_BERRY,
-    .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
+    .species = SPECIES_GARDEVOIR,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .moves = {MOVE_MOONBLAST, MOVE_PSYCHIC, MOVE_TRICK, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 250,
+    .lvl = 46,
+    .species = SPECIES_ALTARIA,
+    .heldItem = ITEM_ALTARIANITE,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_OUTRAGE, MOVE_PLAY_ROUGH, MOVE_EARTHQUAKE	}
     }
 };
 static const struct TrainerMonNoItemDefaultMoves sParty_Jerry1[] = {
