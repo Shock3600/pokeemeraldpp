@@ -318,6 +318,45 @@ PetalburgWoods_EventScript_JamesRematch:: @ 822E31B
 	trainerbattle_rematch TRAINER_JAMES_1, PetalburgWoods_Text_MyPokemonHaveGrown, PetalburgWoods_Text_CantBePopularIfLose
 	msgbox PetalburgWoods_Text_IveBeenTrainingHard, MSGBOX_AUTOCLOSE
 	end
+	
+PetalburgWoods_EventScript_Mega_Trainer::
+	goto_if_set FLAG_PINSIR_GET, PetalburgWoods_EventScript_Mega_Trainer_Defeated
+	goto_if_set FLAG_BADGE07_GET, PetalburgWoods_EventScript_Mega_Trainer_Battle
+	goto_if_set FLAG_BADGE05_GET, PetalburgWoods_EventScript_Mega_Trainer_So_Close
+	goto_if_set FLAG_BADGE03_GET, PetalburgWoods_EventScript_Mega_Trainer_Not_Bad
+	msgbox PetalburgWoods_Text_Weak, MSGBOX_DEFAULT
+	end
+
+PetalburgWoods_EventScript_Mega_Trainer_Battle::
+	goto_if_set FLAG_IS_CHAMPION, PetalburgWoods_EventScript_Mega_Trainer_Champ
+	goto_if_set FLAG_BADGE08_GET, PetalburgWoods_EventScript_Mega_Trainer_Badge08
+	goto PetalburgWoods_EventScript_Mega_Trainer_Badge07
+
+PetalburgWoods_EventScript_Mega_Trainer_So_Close::
+	msgbox PetalburgWoods_Text_So_Close, MSGBOX_DEFAULT
+	end
+	
+PetalburgWoods_EventScript_Mega_Trainer_Not_Bad::
+	msgbox PetalburgWoods_Text_Not_Bad, MSGBOX_DEFAULT
+	end
+
+PetalburgWoods_EventScript_Mega_Trainer_Champ::
+	trainerbattle_single TRAINER_PINSIR_CHAMP, PetalburgWoods_Text_Battle_Champ, PetalburgWoods_Text_Defeat, PetalburgWoods_EventScript_Mega_Trainer_Give_Stone
+	
+PetalburgWoods_EventScript_Mega_Trainer_Badge08::
+	trainerbattle_single TRAINER_PINSIR_BADGE08, PetalburgWoods_Text_Battle_Intro, PetalburgWoods_Text_Defeat, PetalburgWoods_EventScript_Mega_Trainer_Give_Stone
+	
+PetalburgWoods_EventScript_Mega_Trainer_Badge07::
+	trainerbattle_single TRAINER_PINSIR_BADGE07, PetalburgWoods_Text_Battle_Intro, PetalburgWoods_Text_Defeat, PetalburgWoods_EventScript_Mega_Trainer_Give_Stone
+	
+PetalburgWoods_EventScript_Mega_Trainer_Give_Stone::
+	giveitem ITEM_PINSIRITE, 1
+	setflag FLAG_PINSIR_GET
+	end
+	
+PetalburgWoods_EventScript_Mega_Trainer_Defeated::
+	msgbox PetalburgWoods_Text_Defeated, MSGBOX_DEFAULT
+	end
 
 PetalburgWoods_Text_NotAOneToBeFound: @ 822E332
 	.string "Hmmm…\n"
@@ -475,3 +514,39 @@ PetalburgWoods_Text_TrainerTipsPP: @ 822ED07
 	.string "If a POKéMON runs out of PP, it must be\n"
 	.string "taken to a POKéMON CENTER.$"
 
+PetalburgWoods_Text_Weak:
+	.string "You're not even close\n"
+	.string "to my power. Once you're\n"
+	.string "less weak come back to see me.$"
+	
+PetalburgWoods_Text_So_Close:
+	.string "You're so close! Once\n"
+	.string "You get a little stronger\n"
+	.string "come back for a fight!$"
+	
+PetalburgWoods_Text_Not_Bad:
+	.string "You're not so bad...\n"
+	.string "Maybe in the future we can fight.$"
+	
+PetalburgWoods_Text_Battle_Champ:
+	.string "The Champion! I've been\n"
+	.string "looking forward to this.\n"
+	.string "If I win, maybe I'll\n"
+	.string "go challenge the Elite 4 and you!$"
+
+PetalburgWoods_Text_Battle_Intro:
+	.string "Now this is a battle\n"
+	.string "I'm looking forward to!\n"
+	.string "Bring it on!$"
+	
+PetalburgWoods_Text_Defeat:
+	.string "Wow...\n"
+	.string "You beat me. You truly\n"
+	.string "are great. Use this\n"
+	.string "stone to harness the\n"
+	.string "power of MEGA PINSIR!$"
+	
+PetalburgWoods_Text_Defeated:
+	.string "You've already proved\n"
+	.string "your worth! I hope\n"
+	.string "making good use of that MEGA STONE.$"

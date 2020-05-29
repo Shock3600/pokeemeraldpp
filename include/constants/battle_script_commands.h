@@ -218,6 +218,6 @@
 #define BIT_SPATK                   0x10
 #define BIT_SPDEF                   0x20
 #define BIT_ACC                     0x40
-#define BIT_EVASION                 0x80
+#define BIT_EVASION                 0x80z
 
 #endif // GUARD_CONSTANTS_BATTLE_SCRIPT_COMMANDS_H

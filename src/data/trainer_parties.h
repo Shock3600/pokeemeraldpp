@@ -12737,3 +12737,108 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Banette_Badge0
 	.moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_SNEAK, MOVE_ICE_PUNCH, MOVE_TRICK}
 	}
 };
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Pinsir_Champ[] = {
+	{
+	.iv = 200,
+	.lvl = 55,
+	.species = SPECIES_LINOONE,
+	.ability = 0,
+	.heldItem = ITEM_SITRUS_BERRY,
+	.moves = {MOVE_BELLY_DRUM, MOVE_EXTREME_SPEED, MOVE_SHADOW_CLAW, MOVE_STOMPING_TANTRUM}
+	},
+    {
+    .iv = 200,
+    .lvl = 58,
+    .species = SPECIES_PINSIR,
+	.ability = 2,
+    .heldItem = ITEM_PINSIRITE,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_RETURN, MOVE_QUICK_ATTACK, MOVE_CLOSE_COMBAT}
+    },
+	{
+	.iv = 200,
+	.lvl = 57,
+	.species = SPECIES_BRELOOM,
+	.ability = 2,
+	.heldItem = ITEM_LIFE_ORB,
+	.moves = {MOVE_BULLET_SEED, MOVE_SPORE, MOVE_MACH_PUNCH, MOVE_FOCUS_PUNCH}
+	},
+	{
+	.iv = 200,
+	.lvl = 56,
+	.species = SPECIES_SWELLOW,
+	.ability = 0,
+	.heldItem = ITEM_CHOICE_BAND,
+	.moves = {MOVE_BRAVE_BIRD, MOVE_FACADE, MOVE_U_TURN, MOVE_QUICK_ATTACK}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Pinsir_Badge08[] = {
+	{
+	.iv = 200,
+	.lvl = 43,
+	.species = SPECIES_LINOONE,
+	.ability = 0,
+	.heldItem = ITEM_SITRUS_BERRY,
+	.moves = {MOVE_BELLY_DRUM, MOVE_EXTREME_SPEED, MOVE_SHADOW_CLAW, MOVE_STOMPING_TANTRUM}
+	},
+    {
+    .iv = 200,
+    .lvl = 46,
+    .species = SPECIES_PINSIR,
+	.ability = 2,
+    .heldItem = ITEM_PINSIRITE,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_RETURN, MOVE_QUICK_ATTACK, MOVE_CLOSE_COMBAT}
+    },
+	{
+	.iv = 200,
+	.lvl = 45,
+	.species = SPECIES_BRELOOM,
+	.ability = 2,
+	.heldItem = ITEM_LIFE_ORB,
+	.moves = {MOVE_BULLET_SEED, MOVE_SPORE, MOVE_MACH_PUNCH, MOVE_FOCUS_PUNCH}
+	},
+	{
+	.iv = 200,
+	.lvl = 44,
+	.species = SPECIES_SWELLOW,
+	.ability = 0,
+	.heldItem = ITEM_CHOICE_BAND,
+	.moves = {MOVE_BRAVE_BIRD, MOVE_FACADE, MOVE_U_TURN, MOVE_QUICK_ATTACK}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Pinsir_Badge07[] = {
+	{
+	.iv = 200,
+	.lvl = 39,
+	.species = SPECIES_LINOONE,
+	.ability = 0,
+	.heldItem = ITEM_SITRUS_BERRY,
+	.moves = {MOVE_BELLY_DRUM, MOVE_EXTREME_SPEED, MOVE_SHADOW_CLAW, MOVE_STOMPING_TANTRUM}
+	},
+    {
+    .iv = 200,
+    .lvl = 42,
+    .species = SPECIES_PINSIR,
+	.ability = 2,
+    .heldItem = ITEM_PINSIRITE,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_RETURN, MOVE_QUICK_ATTACK, MOVE_CLOSE_COMBAT}
+    },
+	{
+	.iv = 200,
+	.lvl = 41,
+	.species = SPECIES_BRELOOM,
+	.ability = 2,
+	.heldItem = ITEM_LIFE_ORB,
+	.moves = {MOVE_BULLET_SEED, MOVE_SPORE, MOVE_MACH_PUNCH, MOVE_FOCUS_PUNCH}
+	},
+	{
+	.iv = 200,
+	.lvl = 40,
+	.species = SPECIES_SWELLOW,
+	.ability = 0,
+	.heldItem = ITEM_CHOICE_BAND,
+	.moves = {MOVE_BRAVE_BIRD, MOVE_FACADE, MOVE_U_TURN, MOVE_QUICK_ATTACK}
+	}
+};
