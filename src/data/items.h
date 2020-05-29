@@ -4127,10 +4127,10 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_TM08_BULK_UP] =
+    [ITEM_TM08_CLOSE_COMBAT] =
     {
         .name = _("TM08"),
-        .itemId = ITEM_TM08_BULK_UP,
+        .itemId = ITEM_TM08_CLOSE_COMBAT,
         .price = 3000,
         .description = sTM08Desc,
         .importance = 1,

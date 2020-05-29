@@ -388,7 +388,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_RATICATE]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -1298,7 +1297,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MANKEY]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -1324,7 +1323,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_PRIMEAPE]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -1350,6 +1349,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_GROWLITHE]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -1374,6 +1374,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_ARCANINE]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -1449,7 +1450,6 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_POLIWRATH]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(HM08_DIVE)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -1561,7 +1561,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MACHOP]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -1586,7 +1586,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MACHOKE]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -1611,7 +1611,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MACHAMP]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -1961,6 +1961,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_FARFETCHD]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM02_FLY)
@@ -2177,6 +2178,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM24_THUNDERBOLT)
 											| TMHM(TM41_TORMENT)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM50_WILL_O_WISP)),
 
     [SPECIES_HAUNTER]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
@@ -2202,6 +2204,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM24_THUNDERBOLT)
 											| TMHM(TM41_TORMENT)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM50_WILL_O_WISP)),
 
     [SPECIES_GENGAR]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
@@ -2232,6 +2235,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM24_THUNDERBOLT)
 											| TMHM(TM41_TORMENT)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM50_WILL_O_WISP)),
 
     [SPECIES_ONIX]        = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
@@ -2422,7 +2426,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(HM04_STRENGTH)
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM46_THIEF)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_EXEGGUTOR]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM09_BULLET_SEED)
@@ -2446,7 +2451,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(HM04_STRENGTH)
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM46_THIEF)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_CUBONE]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
@@ -2503,7 +2509,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_HITMONLEE]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -2524,7 +2530,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_HITMONCHAN]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -2906,6 +2912,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(HM07_WATERFALL)),
 
     [SPECIES_MR_MIME]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
@@ -3040,7 +3047,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_PINSIR]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -3271,7 +3277,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM46_THIEF)
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_OMANYTE]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
@@ -3606,7 +3613,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MEWTWO]      = TMHM_LEARNSET(TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(HM08_DIVE)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -3651,7 +3658,6 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_MEW]         = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM09_BULLET_SEED)
 											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(HM01_CUT)
@@ -5030,7 +5036,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_SNUBBULL]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -5062,7 +5067,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_GRANBULL]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -5162,8 +5166,8 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_HERACROSS]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM09_BULLET_SEED)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -5217,7 +5221,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_TEDDIURSA]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -5243,7 +5246,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_URSARING]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -5634,7 +5636,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM46_THIEF)
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_STANTLER]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM04_TRICK_ROOM)
@@ -5667,7 +5670,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_TYROGUE]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -5687,7 +5689,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_HITMONTOP]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -5805,7 +5807,6 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_BLISSEY]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -5840,8 +5841,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM24_THUNDERBOLT)
 											| TMHM(TM06_TOXIC)),
 
-    [SPECIES_RAIKOU]      = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(HM01_CUT)
+    [SPECIES_RAIKOU]      = TMHM_LEARNSET(TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -5868,8 +5868,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)
 											| TMHM(TM34_VOLT_SWITCH)),
 
-    [SPECIES_ENTEI]       = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(HM01_CUT)
+    [SPECIES_ENTEI]       = TMHM_LEARNSET(TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -6042,8 +6041,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)
 											| TMHM(HM07_WATERFALL)),
 
-    [SPECIES_HO_OH]       = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(TM32_DOUBLE_TEAM)
+    [SPECIES_HO_OH]       = TMHM_LEARNSET(TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM38_FIRE_BLAST)
@@ -6203,7 +6201,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_COMBUSKEN]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -6226,7 +6223,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_BLAZIKEN]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -6844,7 +6840,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_BRELOOM]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM09_BULLET_SEED)
 											| TMHM(HM01_CUT)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -6873,7 +6868,6 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_SLAKOTH]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -6901,7 +6895,6 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_VIGOROTH]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -6932,7 +6925,6 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_SLAKING]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -7100,7 +7092,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MAKUHITA]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -7122,7 +7114,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_HARIYAMA]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -7370,7 +7362,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MEDITITE]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM05_FLASH)
@@ -7394,7 +7385,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MEDICHAM]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM05_FLASH)
@@ -8018,6 +8008,7 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_ZANGOOSE]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -8196,6 +8187,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(HM08_DIVE)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -8454,7 +8446,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM46_THIEF)
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_SHUPPET]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM04_TRICK_ROOM)
@@ -8505,6 +8498,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM24_THUNDERBOLT)
 											| TMHM(TM41_TORMENT)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM50_WILL_O_WISP)),
 
     [SPECIES_DUSKULL]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
@@ -9162,7 +9156,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(HM07_WATERFALL)),
 
     [SPECIES_GROUDON]     = TMHM_LEARNSET(TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -9193,7 +9186,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_RAYQUAZA]    = TMHM_LEARNSET(TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM08_DIVE)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
@@ -9360,7 +9352,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_CHIMCHAR]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -9385,8 +9376,8 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MONFERNO]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -9411,8 +9402,8 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_INFERNAPE]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -9546,6 +9537,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_STARAPTOR]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM02_FLY)
@@ -9957,7 +9949,6 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_BUIZEL]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(HM08_DIVE)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -9982,7 +9973,6 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_FLOATZEL]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(HM08_DIVE)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -10659,7 +10649,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_RIOLU]       = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -10682,7 +10671,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_LUCARIO]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -10803,7 +10792,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_CROAGUNK]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -10830,7 +10818,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_TOXICROAK]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -11367,13 +11354,14 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM46_THIEF)
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_GALLADE]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -11594,7 +11582,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_DIALGA]      = TMHM_LEARNSET(TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
@@ -11622,11 +11609,11 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_PALKIA]      = TMHM_LEARNSET(TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(HM08_DIVE)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -11656,7 +11643,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(HM03_SURF)
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_HEATRAN]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM28_DIG)
@@ -11703,8 +11691,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM24_THUNDERBOLT)
 											| TMHM(TM06_TOXIC)),
 
-    [SPECIES_GIRATINA]    = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(HM01_CUT)
+    [SPECIES_GIRATINA]    = TMHM_LEARNSET(TMHM(HM01_CUT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
 											| TMHM(TM26_EARTHQUAKE)
@@ -11774,7 +11761,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(HM07_WATERFALL)),
 
     [SPECIES_MANAPHY]     = TMHM_LEARNSET(TMHM(TM14_BLIZZARD)
-											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(HM08_DIVE)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -11920,7 +11906,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM12_TAUNT)
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_SNIVY]       = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(HM01_CUT)
@@ -12041,7 +12028,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_EMBOAR]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -12759,7 +12745,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_TIMBURR]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -12780,7 +12765,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_GURDURR]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -12801,7 +12786,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_CONKELDURR]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -12879,7 +12864,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_THROH]       = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -12901,7 +12885,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_SAWK]        = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -13069,7 +13053,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM12_TAUNT)
 											| TMHM(TM46_THIEF)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_PETILIL]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(HM01_CUT)
@@ -13178,7 +13163,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_KROOKODILE]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -13234,7 +13218,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_DARMANITAN]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -13320,7 +13303,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_SCRAGGY]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
@@ -13347,7 +13329,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_SCRAFTY]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
@@ -13989,6 +13971,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_ESCAVALIER]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
@@ -14061,6 +14044,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(HM03_SURF)
 											| TMHM(TM12_TAUNT)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(HM07_WATERFALL)
 											| TMHM(TM50_WILL_O_WISP)),
 
@@ -14088,6 +14072,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(HM03_SURF)
 											| TMHM(TM12_TAUNT)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(HM07_WATERFALL)
 											| TMHM(TM50_WILL_O_WISP)),
 
@@ -14235,6 +14220,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM34_VOLT_SWITCH)),
 
     [SPECIES_TYNAMO]      = TMHM_LEARNSET(0),
@@ -14310,7 +14296,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM47_STEEL_WING)
 											| TMHM(TM46_THIEF)
 											| TMHM(TM24_THUNDERBOLT)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_BEHEEYEM]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM04_TRICK_ROOM)
@@ -14336,7 +14323,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM47_STEEL_WING)
 											| TMHM(TM46_THIEF)
 											| TMHM(TM24_THUNDERBOLT)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_LITWICK]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM04_TRICK_ROOM)
@@ -14456,6 +14444,7 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_HAXORUS]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
@@ -14504,7 +14493,6 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_BEARTIC]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(HM08_DIVE)
@@ -14602,7 +14590,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MIENFOO]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -14624,7 +14611,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MIENSHAO]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -14699,6 +14685,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_GOLURK]      = TMHM_LEARNSET(TMHM(TM31_BRICK_BREAK)
 											| TMHM(TM32_DOUBLE_TEAM)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM05_FLASH)
@@ -14788,7 +14775,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_RUFFLET]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -14809,7 +14795,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_BRAVIARY]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -14987,8 +14972,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM41_TORMENT)
 											| TMHM(TM06_TOXIC)),
 
-    [SPECIES_LARVESTA]    = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(TM32_DOUBLE_TEAM)
+    [SPECIES_LARVESTA]    = TMHM_LEARNSET(TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM38_FIRE_BLAST)
 											| TMHM(TM35_FLAMETHROWER)
@@ -15007,8 +14991,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM06_TOXIC)),
 
-    [SPECIES_VOLCARONA]   = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(TM32_DOUBLE_TEAM)
+    [SPECIES_VOLCARONA]   = TMHM_LEARNSET(TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM38_FIRE_BLAST)
 											| TMHM(TM35_FLAMETHROWER)
@@ -15030,8 +15013,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM06_TOXIC)),
 
-    [SPECIES_COBALION]    = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(HM01_CUT)
+    [SPECIES_COBALION]    = TMHM_LEARNSET(TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
@@ -15051,8 +15034,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)
 											| TMHM(TM34_VOLT_SWITCH)),
 
-    [SPECIES_TERRAKION]   = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(HM01_CUT)
+    [SPECIES_TERRAKION]   = TMHM_LEARNSET(TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -15073,8 +15056,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM12_TAUNT)
 											| TMHM(TM06_TOXIC)),
 
-    [SPECIES_VIRIZION]    = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(HM01_CUT)
+    [SPECIES_VIRIZION]    = TMHM_LEARNSET(TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM05_FLASH)
@@ -15099,7 +15082,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_TORNADUS]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM02_FLY)
@@ -15123,7 +15105,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_THUNDURUS]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM02_FLY)
@@ -15208,7 +15189,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_LANDORUS]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -15259,8 +15239,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM06_TOXIC)),
 
-    [SPECIES_KELDEO]      = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(HM01_CUT)
+    [SPECIES_KELDEO]      = TMHM_LEARNSET(TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
@@ -15284,6 +15264,7 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_MELOETTA]    = TMHM_LEARNSET(TMHM(TM31_BRICK_BREAK)
 											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM32_DOUBLE_TEAM)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM05_FLASH)
 											| TMHM(TM01_FOCUS_PUNCH)
@@ -15333,7 +15314,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_CHESPIN]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -15361,7 +15341,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_QUILLADIN]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -15389,7 +15368,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_CHESNAUGHT]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -15572,7 +15550,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_BUNNELBY]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -15597,7 +15574,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_DIGGERSBY]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -15664,7 +15640,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_TALONFLAME]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM38_FIRE_BLAST)
@@ -15822,7 +15797,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_SKIDDO]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -15846,7 +15820,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_GOGOAT]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
@@ -15872,7 +15845,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_PANCHAM]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -15898,7 +15870,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_PANGORO]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -16004,6 +15976,7 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_HONEDGE]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
@@ -16021,6 +15994,7 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_DOUBLADE]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
@@ -16038,6 +16012,7 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_AEGISLASH]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
@@ -16228,7 +16203,6 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_BARBARACLE]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
@@ -16513,8 +16487,8 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_HAWLUCHA]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -16684,6 +16658,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM46_THIEF)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM50_WILL_O_WISP)),
 
     [SPECIES_TREVENANT]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
@@ -16739,6 +16714,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM46_THIEF)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM50_WILL_O_WISP)),
 
     [SPECIES_GOURGEIST]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
@@ -16767,6 +16743,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM11_SUNNY_DAY)
 											| TMHM(TM46_THIEF)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM50_WILL_O_WISP)),
 
     [SPECIES_BERGMITE]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
@@ -16864,8 +16841,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM41_TORMENT)
 											| TMHM(TM06_TOXIC)),
 
-    [SPECIES_XERNEAS]     = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(HM01_CUT)
+    [SPECIES_XERNEAS]     = TMHM_LEARNSET(TMHM(HM01_CUT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM05_FLASH)
@@ -17061,7 +17038,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_LITTEN]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM38_FIRE_BLAST)
@@ -17079,7 +17055,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_TORRACAT]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM38_FIRE_BLAST)
@@ -17098,7 +17073,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_INCINEROAR]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -17314,7 +17289,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_CRABRAWLER]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -17334,7 +17309,7 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_CRABOMINABLE]= TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -17424,7 +17399,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_LYCANROC]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
@@ -17495,6 +17469,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_MUDBRAY]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM32_DOUBLE_TEAM)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
@@ -17508,6 +17483,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_MUDSDALE]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -17659,7 +17635,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_STUFFUL]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -17676,7 +17651,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_BEWEAR]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
 											| TMHM(TM26_EARTHQUAKE)
@@ -17789,7 +17764,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_PASSIMIAN]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -17829,7 +17804,7 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_GOLISOPOD]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
@@ -17954,7 +17929,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_KOMALA]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -17967,7 +17941,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_TURTONATOR]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
 											| TMHM(TM26_EARTHQUAKE)
@@ -18004,7 +17977,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_MIMIKYU]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
@@ -18025,11 +17997,11 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
 											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM50_WILL_O_WISP)),
 
     [SPECIES_BRUXISH]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM14_BLIZZARD)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
@@ -18107,7 +18079,6 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_JANGMO_O]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
 											| TMHM(TM26_EARTHQUAKE)
@@ -18127,7 +18098,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_HAKAMO_O]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
 											| TMHM(TM26_EARTHQUAKE)
@@ -18147,7 +18118,7 @@ const u32 gTMHMLearnsets[][2] =
 
     [SPECIES_KOMMO_O]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
 											| TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM02_DRAGON_CLAW)
 											| TMHM(TM26_EARTHQUAKE)
@@ -18168,8 +18139,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM12_TAUNT)
 											| TMHM(TM06_TOXIC)),
 
-    [SPECIES_TAPU_KOKO]   = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(TM32_DOUBLE_TEAM)
+    [SPECIES_TAPU_KOKO]   = TMHM_LEARNSET(TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(HM02_FLY)
 											| TMHM(TM21_FRUSTRATION)
@@ -18192,8 +18162,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)
 											| TMHM(TM34_VOLT_SWITCH)),
 
-    [SPECIES_TAPU_LELE]   = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(TM32_DOUBLE_TEAM)
+    [SPECIES_TAPU_LELE]   = TMHM_LEARNSET(TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
 											| TMHM(TM10_HIDDEN_POWER)
@@ -18215,7 +18184,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_TAPU_BULU]   = TMHM_LEARNSET(TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM01_FOCUS_PUNCH)
 											| TMHM(TM21_FRUSTRATION)
@@ -18260,6 +18228,7 @@ const u32 gTMHMLearnsets[][2] =
     [SPECIES_COSMOEM]     = TMHM_LEARNSET(0),
 
     [SPECIES_SOLGALEO]    = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -18325,10 +18294,10 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM36_SLUDGE_BOMB)
 											| TMHM(TM25_THUNDER)
 											| TMHM(TM24_THUNDERBOLT)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
     [SPECIES_BUZZWOLE]    = TMHM_LEARNSET(TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM26_EARTHQUAKE)
 											| TMHM(TM42_FACADE)
@@ -18360,8 +18329,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM41_TORMENT)
 											| TMHM(TM06_TOXIC)),
 
-    [SPECIES_XURKITREE]   = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(TM32_DOUBLE_TEAM)
+    [SPECIES_XURKITREE]   = TMHM_LEARNSET(TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM21_FRUSTRATION)
 											| TMHM(TM10_HIDDEN_POWER)
@@ -18397,7 +18365,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_KARTANA]     = TMHM_LEARNSET(TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM04_TRICK_ROOM)
 											| TMHM(HM01_CUT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM21_FRUSTRATION)
@@ -18463,8 +18430,8 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM34_VOLT_SWITCH)),
 
     [SPECIES_MARSHADOW]   = TMHM_LEARNSET(TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(TM32_DOUBLE_TEAM)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM01_FOCUS_PUNCH)
 											| TMHM(TM21_FRUSTRATION)
@@ -18522,10 +18489,10 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM20_SAFEGUARD)
 											| TMHM(TM37_SANDSTORM)
 											| TMHM(TM48_SKILL_SWAP)
-											| TMHM(TM06_TOXIC)),
+											| TMHM(TM06_TOXIC)
+											| TMHM(TM04_TRICK_ROOM)),
 
-    [SPECIES_BLACEPHALON] = TMHM_LEARNSET(TMHM(TM04_TRICK_ROOM)
-											| TMHM(TM32_DOUBLE_TEAM)
+    [SPECIES_BLACEPHALON] = TMHM_LEARNSET(TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM38_FIRE_BLAST)
 											| TMHM(TM35_FLAMETHROWER)
@@ -18546,7 +18513,7 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_ZERAORA]     = TMHM_LEARNSET(TMHM(TM31_BRICK_BREAK)
-											| TMHM(TM08_BULK_UP)
+											| TMHM(TM08_CLOSE_COMBAT)
 											| TMHM(TM32_DOUBLE_TEAM)
 											| TMHM(TM42_FACADE)
 											| TMHM(TM01_FOCUS_PUNCH)
@@ -18729,7 +18696,6 @@ const u32 gTMHMLearnsets[][2] =
 											| TMHM(TM06_TOXIC)),
 
     [SPECIES_ALOLAN_RATICATE]= TMHM_LEARNSET(TMHM(TM14_BLIZZARD)
-											| TMHM(TM08_BULK_UP)
 											| TMHM(HM01_CUT)
 											| TMHM(TM28_DIG)
 											| TMHM(TM42_FACADE)
