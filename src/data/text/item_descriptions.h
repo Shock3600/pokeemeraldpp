@@ -1547,9 +1547,9 @@ static const u8 sTM07Desc[] = _(
     "types except ICE.");
 
 static const u8 sTM08Desc[] = _(
-    "Bulks up the body\n"
-    "to boost both\n"
-    "ATTACK & DEFENSE.");
+    "The user attacks,\n"
+	"going all out but\n"
+	"dropping DEF and SP.DEF.");
 
 static const u8 sTM09Desc[] = _(
     "Shoots 2 to 5 seeds\n"

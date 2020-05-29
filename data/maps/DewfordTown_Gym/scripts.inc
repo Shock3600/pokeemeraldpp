@@ -424,9 +424,9 @@ DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis: @ 81FD0A8
 	.string "MACHINE, too.$"
 
 DewfordTown_Gym_Text_ExplainBulkUp: @ 81FD181
-	.string "That TM08 contains BULK UP.\p"
-	.string "It's a move that raises both ATTACK\n"
-	.string "and DEFENSE stats.\p"
+	.string "That TM08 contains CLOSE COMBAT.\p"
+	.string "It's a move that deals major damage\n"
+	.string "but lowwers DEFENSE and SP. DEFENSE stats..\p"
 	.string "… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly: @ 81FD1E0
