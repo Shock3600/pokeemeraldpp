@@ -427,7 +427,7 @@ Route110_TrickHouseEntrance_EventScript_GivePuzzle6Reward:: @ 8269FCB
 	end
 
 Route110_TrickHouseEntrance_EventScript_GivePuzzle7Reward:: @ 8269FF7
-	giveitem ITEM_PP_MAX
+	giveitem ITEM_ALAKAZITE
 	compare VAR_RESULT, TRUE
 	goto_if_eq Route110_TrickHouseEntrance_EventScript_GotReward
 	compare VAR_RESULT, FALSE
