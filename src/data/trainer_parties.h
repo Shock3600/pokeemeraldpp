@@ -12423,11 +12423,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLinkPlaceholder[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Aggron_Champ[] = {
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Aggron_Champ[] = {
 	{
 	.iv = 200,
 	.lvl = 55,
 	.species = SPECIES_CROBAT,
+	.ability = 2,
 	.heldItem = ITEM_BLACK_SLUDGE,
 	.moves = {MOVE_BRAVE_BIRD, MOVE_CROSS_CHOP, MOVE_X_SCISSOR, MOVE_U_TURN}
 	},
@@ -12435,6 +12436,7 @@ static const struct TrainerMonItemCustomMoves sParty_Aggron_Champ[] = {
     .iv = 200,
     .lvl = 58,
     .species = SPECIES_AGGRON,
+	.ability = 0,
     .heldItem = ITEM_AGGRONITE,
     .moves = {MOVE_HEAVY_SLAM, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_TOXIC}
     },
@@ -12442,6 +12444,7 @@ static const struct TrainerMonItemCustomMoves sParty_Aggron_Champ[] = {
 	.iv = 200,
 	.lvl = 57,
 	.species = SPECIES_HARIYAMA,
+	.ability = 0,
 	.heldItem = ITEM_FLAME_ORB,
 	.moves = {MOVE_FAKE_OUT, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE}
 	},
@@ -12449,16 +12452,18 @@ static const struct TrainerMonItemCustomMoves sParty_Aggron_Champ[] = {
 	.iv = 200,
 	.lvl = 56,
 	.species = SPECIES_SABLEYE,
+	.ability = 2,
 	.heldItem = ITEM_LEFTOVERS,
 	.moves = {MOVE_TOXIC, MOVE_NIGHT_SHADE, MOVE_PROTECT, MOVE_SUBSTITUTE}
 	}
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Aggron_Badge08[] = {
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Aggron_Badge08[] = {
 	{
 	.iv = 200,
 	.lvl = 43,
 	.species = SPECIES_CROBAT,
+	.ability = 2,
 	.heldItem = ITEM_BLACK_SLUDGE,
 	.moves = {MOVE_BRAVE_BIRD, MOVE_CROSS_CHOP, MOVE_X_SCISSOR, MOVE_U_TURN}
 	},
@@ -12466,6 +12471,7 @@ static const struct TrainerMonItemCustomMoves sParty_Aggron_Badge08[] = {
     .iv = 200,
     .lvl = 46,
     .species = SPECIES_AGGRON,
+	.ability = 0,
     .heldItem = ITEM_AGGRONITE,
     .moves = {MOVE_HEAVY_SLAM, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_TOXIC}
     },
@@ -12473,6 +12479,7 @@ static const struct TrainerMonItemCustomMoves sParty_Aggron_Badge08[] = {
 	.iv = 200,
 	.lvl = 45,
 	.species = SPECIES_HARIYAMA,
+	.ability = 0,
 	.heldItem = ITEM_FLAME_ORB,
 	.moves = {MOVE_FAKE_OUT, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE}
 	},
@@ -12480,16 +12487,18 @@ static const struct TrainerMonItemCustomMoves sParty_Aggron_Badge08[] = {
 	.iv = 200,
 	.lvl = 44,
 	.species = SPECIES_SABLEYE,
+	.ability = 2,
 	.heldItem = ITEM_LEFTOVERS,
 	.moves = {MOVE_TOXIC, MOVE_NIGHT_SHADE, MOVE_PROTECT, MOVE_SUBSTITUTE}
 	}
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Aggron_Badge07[] = {
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Aggron_Badge07[] = {
 	{
 	.iv = 200,
 	.lvl = 39,
 	.species = SPECIES_CROBAT,
+	.ability = 2,
 	.heldItem = ITEM_BLACK_SLUDGE,
 	.moves = {MOVE_BRAVE_BIRD, MOVE_CROSS_CHOP, MOVE_X_SCISSOR, MOVE_U_TURN}
 	},
@@ -12497,6 +12506,7 @@ static const struct TrainerMonItemCustomMoves sParty_Aggron_Badge07[] = {
     .iv = 200,
     .lvl = 42,
     .species = SPECIES_AGGRON,
+	.ability = 0,
     .heldItem = ITEM_AGGRONITE,
     .moves = {MOVE_HEAVY_SLAM, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_TOXIC}
     },
@@ -12504,6 +12514,7 @@ static const struct TrainerMonItemCustomMoves sParty_Aggron_Badge07[] = {
 	.iv = 200,
 	.lvl = 41,
 	.species = SPECIES_HARIYAMA,
+	.ability = 0,
 	.heldItem = ITEM_FLAME_ORB,
 	.moves = {MOVE_FAKE_OUT, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE}
 	},
@@ -12511,6 +12522,7 @@ static const struct TrainerMonItemCustomMoves sParty_Aggron_Badge07[] = {
 	.iv = 200,
 	.lvl = 40,
 	.species = SPECIES_SABLEYE,
+	.ability = 2,
 	.heldItem = ITEM_LEFTOVERS,
 	.moves = {MOVE_TOXIC, MOVE_NIGHT_SHADE, MOVE_PROTECT, MOVE_SUBSTITUTE}
 	}
