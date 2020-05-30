@@ -220,4 +220,6 @@
 #define BIT_ACC                     0x40
 #define BIT_EVASION                 0x80z
 
+#define NUM_SOFT_CAPS 8
+
 #endif // GUARD_CONSTANTS_BATTLE_SCRIPT_COMMANDS_H

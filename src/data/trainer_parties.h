@@ -3369,7 +3369,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Roxanne1[] = {
     .lvl = 12,
     .species = SPECIES_LILEEP,
 	.ability = 2,
-    .heldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
     .moves = {MOVE_GIGA_DRAIN, MOVE_ROCK_SLIDE, MOVE_TOXIC, MOVE_PROTECT}
     },
     {
@@ -3377,7 +3377,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Roxanne1[] = {
     .lvl = 12,
     .species = SPECIES_ANORITH,
 	.ability = 2,
-    .heldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
     .moves = {MOVE_ROCK_SLIDE, MOVE_X_SCISSOR, MOVE_AQUA_JET, MOVE_DIG}
     },
     {
@@ -3385,7 +3385,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Roxanne1[] = {
     .lvl = 15,
     .species = SPECIES_NOSEPASS,
 	.ability = 1,
-    .heldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
     .moves = {MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_EXPLOSION}
     }
 };
@@ -3393,17 +3393,17 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Brawly1[] = {
     {
     .iv = 100,
     .lvl = 16,
-    .species = SPECIES_HERACROSS,
-	.ability = 2,
-    .heldItem = ITEM_LIFE_ORB,
-    .moves = {MOVE_CLOSE_COMBAT, MOVE_MEGAHORN, MOVE_STONE_EDGE, MOVE_EARTHQUAKE}
+    .species = SPECIES_MACHOP,
+	.ability = 0,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_FIRE_PUNCH, MOVE_BULLET_PUNCH, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 100,
     .lvl = 16,
     .species = SPECIES_MEDITITE,
 	.ability = 0,
-    .heldItem = ITEM_EXPERT_BELT,
+    .heldItem = ITEM_NONE,
     .moves = {MOVE_HI_JUMP_KICK, MOVE_ZEN_HEADBUTT, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
     },
     {

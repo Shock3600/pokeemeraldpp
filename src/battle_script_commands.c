@@ -329,6 +329,22 @@ static void Cmd_removeattackerstatus1(void);
 static void Cmd_finishaction(void);
 static void Cmd_finishturn(void);
 static void Cmd_trainerslideout(void);
+static const u16 sLevelCapFlags[8] =
+{
+    FLAG_BADGE01_GET, FLAG_BADGE02_GET, FLAG_BADGE03_GET, FLAG_BADGE04_GET,
+    FLAG_BADGE05_GET, FLAG_BADGE06_GET, FLAG_BADGE07_GET, FLAG_BADGE08_GET,
+};
+const u16 sLevelCaps[NUM_SOFT_CAPS] = { 15, 19, 24, 29, 31, 33, 43, 46 };
+const double sLevelCapReduction[7] = { .5, .33, .25, .20, .15, .10, .5 };
+const double sRelativePartyScaling[27] =
+{
+    3.00, 2.75, 2.50, 2.33, 2.25,
+    2.00, 1.80, 1.70, 1.60, 1.50,
+    1.40, 1.30, 1.20, 1.10, 1.00,
+    0.90, 0.80, 0.75, 0.66, 0.50,
+    0.40, 0.33, 0.25, 0.20, 0.15,
+    0.10, 0.05,
+};
 static void Cmd_settelekinesis(void);
 static void Cmd_swapstatstages(void);
 static void Cmd_averagestats(void);
@@ -3420,6 +3436,18 @@ static void Cmd_jumpbasedontype(void)
     }
 }
 
+u8 AvgTeamLevel(void) {
+    u8 i;
+    u16 partyLevel = 0;
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) != SPECIES_NONE)
+            partyLevel += gPlayerParty[i].level;
+    }
+    partyLevel /= i;
+    return partyLevel;
+}
+
 static void Cmd_getexp(void)
 {
     u16 item;
@@ -3456,6 +3484,8 @@ static void Cmd_getexp(void)
         {
             u16 calculatedExp;
             s32 viaSentIn;
+			u8 levelDiff;
+			s8 avgDiff;
 
             for (viaSentIn = 0, i = 0; i < PARTY_SIZE; i++)
             {
@@ -3476,6 +3506,28 @@ static void Cmd_getexp(void)
             }
 
             calculatedExp = gBaseStats[gBattleMons[gBattlerFainted].species].expYield * gBattleMons[gBattlerFainted].level / 7;
+			
+			for (i = 0; i < NUM_SOFT_CAPS; i++)
+			{
+				if (!FlagGet(sLevelCapFlags[i]) && gPlayerParty[gBattleStruct->expGetterMonId].level > sLevelCaps[i])
+				{
+					levelDiff = gPlayerParty[gBattleStruct->expGetterMonId].level - sLevelCaps[i];
+					if (levelDiff > 7)
+						levelDiff = 7;
+						calculatedExp *= sLevelCapReduction[levelDiff];
+				}
+}
+
+avgDiff = gPlayerParty[gBattleStruct->expGetterMonId].level - AvgTeamLevel();
+
+if (avgDiff >= 12)
+    avgDiff = 12;
+else if (avgDiff <= -14)
+    avgDiff = -14;
+
+avgDiff += 14;
+
+calculatedExp *= sRelativePartyScaling[avgDiff];
 
             if (viaExpShare) // at least one mon is getting exp via exp share
             {
