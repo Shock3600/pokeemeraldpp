@@ -34,6 +34,9 @@
 #include "constants/songs.h"
 #include "constants/rgb.h"
 
+#include "constants/items.h"
+#include "item.h"
+
 struct EvoInfo
 {
     u8 preEvoSpriteID;
@@ -584,6 +587,19 @@ static void CreateShedinja(u16 preEvoSpecies, struct Pokemon* mon)
     }
 }
 
+static void Give_Shed_Shell(u16 preEvoSpecies)
+{
+    if (gEvolutionTable[preEvoSpecies][0].targetSpecies == SPECIES_BEAUTIFLY || gEvolutionTable[preEvoSpecies][0].targetSpecies == SPECIES_DUSTOX)
+	{
+		AddBagItem(ITEM_SHED_SHELL, 1);
+	}
+	
+	if (gEvolutionTable[preEvoSpecies][0].method == EVO_LEVEL_NINJASK && gPlayerPartyCount == 6)
+	{
+		AddBagItem(ITEM_SHED_SHELL, 1);
+	}
+}
+
 static void Task_EvolutionScene(u8 taskID)
 {
     u32 var;
@@ -766,8 +782,11 @@ static void Task_EvolutionScene(u8 taskID)
                 Overworld_PlaySpecialMapMusic();
             }
             if (!gTasks[taskID].tEvoWasStopped)
+			{
                 CreateShedinja(gTasks[taskID].tPreEvoSpecies, mon);
-
+				Give_Shed_Shell(gTasks[taskID].tPreEvoSpecies);
+			}
+			
             DestroyTask(taskID);
             FreeMonSpritesGfx();
             Free(sEvoStructPtr);
