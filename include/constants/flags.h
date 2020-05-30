@@ -1234,7 +1234,7 @@
 #define FLAG_BANETTE_GET                                            0x495 // If the player has the Baenette mega stone
 #define FLAG_PINSIR_GET                                             0x496 // If the player has the Pinsir mega stone
 #define FLAG_GYARADOS_GET                                           0x497 // Unused Flag
-#define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
+#define FLAG_HERACROSS_GET                                          0x498 // Unused Flag
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag
 #define FLAG_UNUSED_0x49A                                           0x49A // Unused Flag
 #define FLAG_UNUSED_0x49B                                           0x49B // Unused Flag

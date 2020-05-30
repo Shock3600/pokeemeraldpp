@@ -25,6 +25,45 @@ VictoryRoad_B1F_EventScript_Halle:: @ 8236541
 	trainerbattle_single TRAINER_HALLE, VictoryRoad_B1F_Text_HalleIntro, VictoryRoad_B1F_Text_HalleDefeat
 	msgbox VictoryRoad_B1F_Text_HallePostBattle, MSGBOX_AUTOCLOSE
 	end
+	
+VictoryRoad_B1F_EventScript_Mega_Trainer::
+	goto_if_set FLAG_HERACROSS_GET, VictoryRoad_B1F_EventScript_Mega_Trainer_Defeated
+	goto_if_set FLAG_BADGE07_GET, VictoryRoad_B1F_EventScript_Mega_Trainer_Battle
+	goto_if_set FLAG_BADGE05_GET, VictoryRoad_B1F_EventScript_Mega_Trainer_So_Close
+	goto_if_set FLAG_BADGE03_GET, VictoryRoad_B1F_EventScript_Mega_Trainer_Not_Bad
+	msgbox VictoryRoad_B1F_Text_Weak, MSGBOX_DEFAULT
+	end
+
+VictoryRoad_B1F_EventScript_Mega_Trainer_Battle::
+	goto_if_set FLAG_IS_CHAMPION, VictoryRoad_B1F_EventScript_Mega_Trainer_Champ
+	goto_if_set FLAG_BADGE08_GET, VictoryRoad_B1F_EventScript_Mega_Trainer_Badge08
+	goto VictoryRoad_B1F_EventScript_Mega_Trainer_Badge07
+
+VictoryRoad_B1F_EventScript_Mega_Trainer_So_Close::
+	msgbox VictoryRoad_B1F_Text_So_Close, MSGBOX_DEFAULT
+	end
+	
+VictoryRoad_B1F_EventScript_Mega_Trainer_Not_Bad::
+	msgbox VictoryRoad_B1F_Text_Not_Bad, MSGBOX_DEFAULT
+	end
+
+VictoryRoad_B1F_EventScript_Mega_Trainer_Champ::
+	trainerbattle_single TRAINER_HERACROSS_CHAMP, VictoryRoad_B1F_Text_Battle_Champ, VictoryRoad_B1F_Text_Defeat, VictoryRoad_B1F_EventScript_Mega_Trainer_Give_Stone
+	
+VictoryRoad_B1F_EventScript_Mega_Trainer_Badge08::
+	trainerbattle_single TRAINER_HERACROSS_BADGE08, VictoryRoad_B1F_Text_Battle_Intro, VictoryRoad_B1F_Text_Defeat, VictoryRoad_B1F_EventScript_Mega_Trainer_Give_Stone
+	
+VictoryRoad_B1F_EventScript_Mega_Trainer_Badge07::
+	trainerbattle_single TRAINER_HERACROSS_BADGE07, VictoryRoad_B1F_Text_Battle_Intro, VictoryRoad_B1F_Text_Defeat, VictoryRoad_B1F_EventScript_Mega_Trainer_Give_Stone
+	
+VictoryRoad_B1F_EventScript_Mega_Trainer_Give_Stone::
+	giveitem ITEM_HERACRONITE, 1
+	setflag FLAG_HERACROSS_GET
+	end
+	
+VictoryRoad_B1F_EventScript_Mega_Trainer_Defeated::
+	msgbox VictoryRoad_B1F_Text_Defeated, MSGBOX_DEFAULT
+	end
 
 VictoryRoad_B1F_Text_SamuelIntro: @ 8236558
 	.string "The thought that I'm getting closer to\n"
@@ -89,3 +128,40 @@ VictoryRoad_B1F_Text_HallePostBattle: @ 823684C
 	.string "Try to enjoy things the rest of\n"
 	.string "the way!$"
 
+VictoryRoad_B1F_Text_Weak:
+	.string "You're not even close\n"
+	.string "to my power. Once you're\n"
+	.string "less weak come back to see me.$"
+	
+VictoryRoad_B1F_Text_So_Close:
+	.string "You're so close! Once\n"
+	.string "You get a little stronger\n"
+	.string "come back for a fight!$"
+	
+VictoryRoad_B1F_Text_Not_Bad:
+	.string "You're not so bad...\n"
+	.string "Maybe in the future we can fight.$"
+	
+VictoryRoad_B1F_Text_Battle_Champ:
+	.string "The Champion! I've been\n"
+	.string "looking forward to this.\n"
+	.string "If I win, maybe I'll\n"
+	.string "go challenge the Elite 4 and you!$"
+
+VictoryRoad_B1F_Text_Battle_Intro:
+	.string "Now this is a battle\n"
+	.string "I'm looking forward to!\n"
+	.string "Bring it on!$"
+	
+VictoryRoad_B1F_Text_Defeat:
+	.string "Wow...\n"
+	.string "You beat me. You truly\n"
+	.string "are great. Use this\n"
+	.string "stone to harness the\n"
+	.string "power of MEGA HERACROSS!$"
+	
+VictoryRoad_B1F_Text_Defeated:
+	.string "You've already proved\n"
+	.string "your worth! I hope\n"
+	.string "making good use of that MEGA STONE.$"
+	

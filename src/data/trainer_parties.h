@@ -13008,3 +13008,108 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Gyarados_Badge
 	.moves = {MOVE_AQUA_RING, MOVE_SCALD, MOVE_SLUDGE_WAVE, MOVE_ICE_BEAM}
 	}
 };
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Heracross_Champ[] = {
+	{
+	.iv = 200,
+	.lvl = 55,
+	.species = SPECIES_CROBAT,
+	.ability = 2,
+	.heldItem = ITEM_BLACK_SLUDGE,
+	.moves = {MOVE_TOXIC, MOVE_BRAVE_BIRD, MOVE_PROTECT, MOVE_U_TURN}
+	},
+    {
+    .iv = 200,
+    .lvl = 58,
+    .species = SPECIES_HERACROSS,
+	.ability = 0,
+    .heldItem = ITEM_HERACRONITE,
+    .moves = {MOVE_BULLET_SEED,MOVE_PIN_MISSILE, MOVE_ROCK_BLAST, MOVE_CLOSE_COMBAT}
+    },
+	{
+	.iv = 200,
+	.lvl = 57,
+	.species = SPECIES_EXPLOUD,
+	.ability = 2,
+	.heldItem = ITEM_CHOICE_SPECS,
+	.moves = {MOVE_BOOMBURST, MOVE_FLAMETHROWER, MOVE_SURF, MOVE_SHADOW_BALL}
+	},
+	{
+	.iv = 200,
+	.lvl = 56,
+	.species = SPECIES_AGGRON,
+	.ability = 0,
+	.heldItem = ITEM_LEFTOVERS,
+	.moves = {MOVE_HEAD_SMASH, MOVE_EARTHQUAKE, MOVE_HEAVY_SLAM, MOVE_STEALTH_ROCK}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Heracross_Badge08[] = {
+	{
+	.iv = 200,
+	.lvl = 43,
+	.species = SPECIES_CROBAT,
+	.ability = 2,
+	.heldItem = ITEM_BLACK_SLUDGE,
+	.moves = {MOVE_TOXIC, MOVE_BRAVE_BIRD, MOVE_PROTECT, MOVE_U_TURN}
+	},
+    {
+    .iv = 200,
+    .lvl = 46,
+    .species = SPECIES_HERACROSS,
+	.ability = 0,
+    .heldItem = ITEM_HERACRONITE,
+    .moves = {MOVE_BULLET_SEED,MOVE_PIN_MISSILE, MOVE_ROCK_BLAST, MOVE_CLOSE_COMBAT}
+    },
+	{
+	.iv = 200,
+	.lvl = 45,
+	.species = SPECIES_EXPLOUD,
+	.ability = 2,
+	.heldItem = ITEM_CHOICE_SPECS,
+	.moves = {MOVE_BOOMBURST, MOVE_FLAMETHROWER, MOVE_SURF, MOVE_SHADOW_BALL}
+	},
+	{
+	.iv = 200,
+	.lvl = 44,
+	.species = SPECIES_AGGRON,
+	.ability = 0,
+	.heldItem = ITEM_LEFTOVERS,
+	.moves = {MOVE_HEAD_SMASH, MOVE_EARTHQUAKE, MOVE_HEAVY_SLAM, MOVE_STEALTH_ROCK}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Heracross_Badge07[] = {
+	{
+	.iv = 200,
+	.lvl = 39,
+	.species = SPECIES_CROBAT,
+	.ability = 2,
+	.heldItem = ITEM_BLACK_SLUDGE,
+	.moves = {MOVE_TOXIC, MOVE_BRAVE_BIRD, MOVE_PROTECT, MOVE_U_TURN}
+	},
+    {
+    .iv = 200,
+    .lvl = 42,
+    .species = SPECIES_HERACROSS,
+	.ability = 0,
+    .heldItem = ITEM_HERACRONITE,
+    .moves = {MOVE_BULLET_SEED,MOVE_PIN_MISSILE, MOVE_ROCK_BLAST, MOVE_CLOSE_COMBAT}
+    },
+	{
+	.iv = 200,
+	.lvl = 41,
+	.species = SPECIES_EXPLOUD,
+	.ability = 2,
+	.heldItem = ITEM_CHOICE_SPECS,
+	.moves = {MOVE_BOOMBURST, MOVE_FLAMETHROWER, MOVE_SURF, MOVE_SHADOW_BALL}
+	},
+	{
+	.iv = 200,
+	.lvl = 40,
+	.species = SPECIES_AGGRON,
+	.ability = 0,
+	.heldItem = ITEM_LEFTOVERS,
+	.moves = {MOVE_HEAD_SMASH, MOVE_EARTHQUAKE, MOVE_HEAVY_SLAM, MOVE_STEALTH_ROCK}
+	}
+};
