@@ -5734,6 +5734,9 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         if (gBattleMoves[move].flags & FLAG_MEGA_LAUNCHER_BOOST)
            MulModifier(&modifier, UQ_4_12(1.5));
         break;
+    case ABILITY_CACOPHONY:
+        if (gBattleMoves[move].flags & FLAG_SOUND)
+           MulModifier(&modifier, UQ_4_12(1.5));
     case ABILITY_WATER_BUBBLE:
         if (moveType == TYPE_WATER)
            MulModifier(&modifier, UQ_4_12(2.0));

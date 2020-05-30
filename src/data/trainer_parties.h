@@ -3490,7 +3490,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Norman1[] = {
     .species = SPECIES_EXPLOUD,
 	.ability = 2,
     .heldItem = ITEM_CHOICE_SPECS,
-    .moves = {MOVE_BOOMBURST, MOVE_FLAMETHROWER, MOVE_ICE_BEAM, MOVE_SURF}
+    .moves = {MOVE_BOOMBURST, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_SURF}
     },
 	{
     .iv = 200,
@@ -12901,5 +12901,110 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Pinsir_Badge07
 	.ability = 0,
 	.heldItem = ITEM_CHOICE_BAND,
 	.moves = {MOVE_BRAVE_BIRD, MOVE_FACADE, MOVE_U_TURN, MOVE_QUICK_ATTACK}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Gyarados_Champ[] = {
+	{
+	.iv = 200,
+	.lvl = 55,
+	.species = SPECIES_PELIPPER,
+	.ability = 0,
+	.heldItem = ITEM_DAMP_ROCK,
+	.moves = {MOVE_HURRICANE, MOVE_HYDRO_PUMP, MOVE_U_TURN, MOVE_ROOST}
+	},
+    {
+    .iv = 200,
+    .lvl = 58,
+    .species = SPECIES_GYARADOS,
+	.ability = 0,
+    .heldItem = ITEM_GYARADOSITE,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_WATERFALL, MOVE_CRUNCH, MOVE_POWER_WHIP}
+    },
+	{
+	.iv = 200,
+	.lvl = 57,
+	.species = SPECIES_SHARPEDO,
+	.ability = 2,
+	.heldItem = ITEM_LIFE_ORB,
+	.moves = {MOVE_WATERFALL, MOVE_CRUNCH, MOVE_PROTECT, MOVE_EARTHQUAKE}
+	},
+	{
+	.iv = 200,
+	.lvl = 56,
+	.species = SPECIES_TENTACRUEL,
+	.ability = 2,
+	.heldItem = ITEM_BLACK_SLUDGE,
+	.moves = {MOVE_AQUA_RING, MOVE_SCALD, MOVE_SLUDGE_WAVE, MOVE_ICE_BEAM}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Gyarados_Badge08[] = {
+	{
+	.iv = 200,
+	.lvl = 43,
+	.species = SPECIES_PELIPPER,
+	.ability = 0,
+	.heldItem = ITEM_DAMP_ROCK,
+	.moves = {MOVE_HURRICANE, MOVE_HYDRO_PUMP, MOVE_U_TURN, MOVE_ROOST}
+	},
+    {
+    .iv = 200,
+    .lvl = 46,
+    .species = SPECIES_GYARADOS,
+	.ability = 0,
+    .heldItem = ITEM_GYARADOSITE,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_WATERFALL, MOVE_CRUNCH, MOVE_POWER_WHIP}
+    },
+	{
+	.iv = 200,
+	.lvl = 45,
+	.species = SPECIES_SHARPEDO,
+	.ability = 2,
+	.heldItem = ITEM_LIFE_ORB,
+	.moves = {MOVE_WATERFALL, MOVE_CRUNCH, MOVE_PROTECT, MOVE_EARTHQUAKE}
+	},
+	{
+	.iv = 200,
+	.lvl = 44,
+	.species = SPECIES_TENTACRUEL,
+	.ability = 2,
+	.heldItem = ITEM_BLACK_SLUDGE,
+	.moves = {MOVE_AQUA_RING, MOVE_SCALD, MOVE_SLUDGE_WAVE, MOVE_ICE_BEAM}
+	}
+};
+
+static const struct TrainerMonItemCustomMovesCustomAbility sParty_Gyarados_Badge07[] = {
+	{
+	.iv = 200,
+	.lvl = 39,
+	.species = SPECIES_PELIPPER,
+	.ability = 0,
+	.heldItem = ITEM_DAMP_ROCK,
+	.moves = {MOVE_HURRICANE, MOVE_HYDRO_PUMP, MOVE_U_TURN, MOVE_ROOST}
+	},
+    {
+    .iv = 200,
+    .lvl = 42,
+    .species = SPECIES_GYARADOS,
+	.ability = 0,
+    .heldItem = ITEM_GYARADOSITE,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_WATERFALL, MOVE_CRUNCH, MOVE_POWER_WHIP}
+    },
+	{
+	.iv = 200,
+	.lvl = 41,
+	.species = SPECIES_SHARPEDO,
+	.ability = 2,
+	.heldItem = ITEM_LIFE_ORB,
+	.moves = {MOVE_WATERFALL, MOVE_CRUNCH, MOVE_PROTECT, MOVE_EARTHQUAKE}
+	},
+	{
+	.iv = 200,
+	.lvl = 40,
+	.species = SPECIES_TENTACRUEL,
+	.ability = 2,
+	.heldItem = ITEM_BLACK_SLUDGE,
+	.moves = {MOVE_AQUA_RING, MOVE_SCALD, MOVE_SLUDGE_WAVE, MOVE_ICE_BEAM}
 	}
 };

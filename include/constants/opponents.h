@@ -868,11 +868,14 @@
 #define TRAINER_PINSIR_CHAMP                864
 #define TRAINER_PINSIR_BADGE08              865
 #define TRAINER_PINSIR_BADGE07              866
+#define TRAINER_GYARADOS_CHAMP              867
+#define TRAINER_GYARADOS_BADGE08            868
+#define TRAINER_GYARADOS_BADGE07            869
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 
-#define TRAINERS_COUNT                      867
+#define TRAINERS_COUNT                      870
 #define MAX_TRAINERS_COUNT                  904
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
