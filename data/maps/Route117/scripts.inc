@@ -17,7 +17,13 @@ Route117_EventScript_Woman:: @ 81F399A
 	end
 
 Route117_EventScript_LittleBoy:: @ 81F39A3
+	goto_if_unset FLAG_EVIOLITE_GET, Route117_EventScript_Eviolite
 	msgbox Route117_Text_AirIsTastyHere, MSGBOX_NPC
+	end
+	
+Route117_EventScript_Eviolite::
+	msgbox Route117_EventScript_Eviolite
+	setflag FLAG_EVIOLITE_GET
 	end
 
 Route117_EventScript_Girl:: @ 81F39AC
@@ -197,6 +203,13 @@ Route117_Text_ArentTheseFlowersPretty: @ 81F3CFD
 
 Route117_Text_AirIsTastyHere: @ 81F3D41
 	.string "The air is tasty here!$"
+	
+Route117_Text_Eviolite:
+	.string "My mom gave me this\n"
+	.string "stone for my baby\n"
+	.string "POKEMON to hold but\n"
+	.string "it stopped working when\n"
+	.string "I evolved it.$"
 
 Route117_Text_RouteSignVerdanturf: @ 81F3D58
 	.string "ROUTE 117\n"

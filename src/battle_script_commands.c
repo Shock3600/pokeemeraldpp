@@ -900,19 +900,58 @@ static const u16 sPickupItems[] =
     ITEM_MAX_ELIXIR,
 };
 
+static const u16 sUncommonPickupItems[] =
+{
+	ITEM_ABSORB_BULB,
+	ITEM_CELL_BATTERY,
+	ITEM_LUMINOUS_MOSS,
+	ITEM_SNOWBALL,
+	ITEM_FLAME_PLATE,
+	ITEM_SPLASH_PLATE,
+	ITEM_ZAP_PLATE,
+	ITEM_MEADOW_PLATE,
+	ITEM_ICICLE_PLATE,
+	ITEM_FIST_PLATE,
+	ITEM_TOXIC_PLATE,
+	ITEM_EARTH_PLATE,
+	ITEM_SKY_PLATE,
+	ITEM_MIND_PLATE,
+	ITEM_INSECT_PLATE,
+	ITEM_STONE_PLATE,
+	ITEM_SPOOKY_PLATE,
+	ITEM_DRACO_PLATE,
+	ITEM_DREAD_PLATE,
+	ITEM_IRON_PLATE,
+	ITEM_PIXIE_PLATE,
+	ITEM_FIRE_GEM,
+	ITEM_WATER_GEM,
+	ITEM_ELECTRIC_GEM,
+	ITEM_GRASS_GEM,
+	ITEM_ICE_GEM,
+	ITEM_FIGHTING_GEM,
+	ITEM_POISON_GEM,
+	ITEM_GROUND_GEM,
+	ITEM_FLYING_GEM,
+	ITEM_PSYCHIC_GEM,
+	ITEM_BUG_GEM,
+	ITEM_ROCK_GEM,
+	ITEM_GHOST_GEM,
+	ITEM_DARK_GEM,
+	ITEM_STEEL_GEM,
+	ITEM_FAIRY_GEM,
+	ITEM_NORMAL_GEM,
+};
+
 static const u16 sRarePickupItems[] =
 {
-    ITEM_HYPER_POTION,
-    ITEM_NUGGET,
-    ITEM_KINGS_ROCK,
-    ITEM_FULL_RESTORE,
-    ITEM_ETHER,
-    ITEM_WHITE_HERB,
-    ITEM_TM44_REST,
-    ITEM_ELIXIR,
-    ITEM_TM01_FOCUS_PUNCH,
     ITEM_LEFTOVERS,
-    ITEM_TM26_EARTHQUAKE,
+	ITEM_ICY_ROCK,
+	ITEM_FOCUS_SASH,
+	ITEM_POWER_HERB,
+	ITEM_SHED_SHELL,
+	ITEM_BIG_ROOT,
+	ITEM_LAGGING_TAIL,
+	ITEM_QUICK_CLAW,
 };
 
 static const u8 sPickupProbabilities[] =
@@ -3602,7 +3641,7 @@ calculatedExp *= sRelativePartyScaling[avgDiff];
                     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && B_TRAINER_EXP_MULTIPLIER <= GEN_7)
                         gBattleMoveDamage = (gBattleMoveDamage * 150) / 100;
 
-                    if (IsTradedMon(&gPlayerParty[gBattleStruct->expGetterMonId]))
+                    /*if (IsTradedMon(&gPlayerParty[gBattleStruct->expGetterMonId]))
                     {
                         // check if the pokemon doesn't belong to the player
                         if (gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER && gBattleStruct->expGetterMonId >= 3)
@@ -3614,7 +3653,7 @@ calculatedExp *= sRelativePartyScaling[avgDiff];
                             gBattleMoveDamage = (gBattleMoveDamage * 150) / 100;
                             i = STRINGID_ABOOSTED;
                         }
-                    }
+                    }*/
                     else
                     {
                         i = STRINGID_EMPTYSTRING4;
@@ -11333,6 +11372,11 @@ static void Cmd_pickup(void)
                     if (sPickupProbabilities[j] > rand)
                     {
                         SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &sPickupItems[lvlDivBy10 + j]);
+                        break;
+                    }
+					else if (rand < 99 && rand > 89)
+					{
+                        SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &sUncommonPickupItems[lvlDivBy10 + (99 - rand)]);
                         break;
                     }
                     else if (rand == 99 || rand == 98)

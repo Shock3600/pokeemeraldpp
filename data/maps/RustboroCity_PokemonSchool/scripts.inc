@@ -83,7 +83,7 @@ RustboroCity_PokemonSchool_EventScript_Teacher:: @ 8213F95
 	compare VAR_FACING, DIR_WEST
 	call_if_eq RustboroCity_PokemonSchool_EventScript_TeacherCheckOnStudentsWest
 	msgbox RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw, MSGBOX_DEFAULT
-	giveitem ITEM_QUICK_CLAW
+	giveitem ITEM_WEAKNESS_POLICY
 	compare VAR_RESULT, 0
 	goto_if_eq Common_EventScript_ShowBagIsFull
 	closemessage
@@ -247,20 +247,14 @@ RustboroCity_PokemonSchool_Text_ExplainFreeze: @ 82143B8
 	.string "Thaw it out using an ICE HEAL.$"
 
 RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw: @ 8214433
-	.string "Students who don't study get a little\n"
-	.string "taste of my QUICK CLAW.\p"
-	.string "Whether or not you are a good student \n"
-	.string "will be evident from the way you use\l"
-	.string "this item.$"
+	.string "If you're a good trainer,\n"
+	.string "you can make use of your knowledge\n"
+	.string "to benefit with this item.$"
 
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw: @ 82144C8
-	.string "A POKéMON holding the QUICK CLAW will\n"
-	.string "occasionally speed up and get to move\l"
-	.string "before its opponent.\p"
-	.string "There are many other items that are\n"
-	.string "meant to be held by POKéMON.\p"
-	.string "Just those alone will give you many\n"
-	.string "topics to study!$"
+	.string "A POKéMON holding WEAKNESS POLICY\n"
+	.string "will RAISE its ATTACK and SP. ATTACK\n"
+	.string "if hit by a super effective move.$"
 
 RustboroCity_PokemonSchool_Text_TradingRightNow: @ 821459F
 	.string "I'm trading POKéMON with my friend\n"

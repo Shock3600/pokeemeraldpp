@@ -343,7 +343,7 @@ PetalburgWoods_EventScript_ItemParalyzeHeal:: @ 8291129
 	end
 
 RusturfTunnel_EventScript_ItemPokeBall:: @ 8291136
-	finditem ITEM_POKE_BALL
+	finditem ITEM_ROCKY_HELMET
 	end
 
 RusturfTunnel_EventScript_ItemMaxEther:: @ 8291143

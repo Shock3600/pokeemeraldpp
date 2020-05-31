@@ -97,8 +97,7 @@
 #define FLAG_LEGENDARIES_IN_SOOTOPOLIS       0x53
 
 #define FLAG_WANDA_GIVE_STONE                0x54  // if wanda has given the gardevoir mega stone
-#define FLAG_UNUSED_0x055                    0x55  // Unused Flag
-
+#define FLAG_EVIOLITE_GET                    0x55  // Unused Flag
 #define FLAG_HIDE_CONTEST_POKE_BALL          0x56  // Always set after new game, object it hides is added directly
 #define FLAG_MET_RIVAL_MOM                   0x57
 #define FLAG_BIRCH_AIDE_MET                  0x58
