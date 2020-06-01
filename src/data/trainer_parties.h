@@ -3370,7 +3370,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Roxanne1[] = {
     .species = SPECIES_LILEEP,
 	.ability = 2,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_GIGA_DRAIN, MOVE_ROCK_SLIDE, MOVE_TOXIC, MOVE_PROTECT}
+    .moves = {MOVE_MEGA_DRAIN, MOVE_ROCK_SLIDE, MOVE_TOXIC, MOVE_PROTECT}
     },
     {
     .iv = 100,
@@ -3378,7 +3378,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Roxanne1[] = {
     .species = SPECIES_ANORITH,
 	.ability = 2,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_ROCK_SLIDE, MOVE_X_SCISSOR, MOVE_AQUA_JET, MOVE_DIG}
+    .moves = {MOVE_ROCK_SLIDE, MOVE_BUG_BITE, MOVE_AQUA_JET, MOVE_DIG}
     },
     {
     .iv = 200,
@@ -3386,7 +3386,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Roxanne1[] = {
     .species = SPECIES_NOSEPASS,
 	.ability = 1,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_EXPLOSION}
+    .moves = {MOVE_ROCK_SLIDE, MOVE_BULLDOZE, MOVE_SHOCK_WAVE, MOVE_EXPLOSION}
     }
 };
 static const struct TrainerMonItemCustomMovesCustomAbility sParty_Brawly1[] = {
