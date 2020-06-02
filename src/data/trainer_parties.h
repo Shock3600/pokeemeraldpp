@@ -3396,7 +3396,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Brawly1[] = {
     .species = SPECIES_MACHOP,
 	.ability = 0,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_POWER_UP_PUNCH, MOVE_BRICK_BREAK, MOVE_KNOCK_OFF, MOVE_ROCK_SLIDE}
+    .moves = {MOVE_POWER_UP_PUNCH, MOVE_BRICK_BREAK, MOVE_KNOCK_OFF, MOVE_ROCK_TOMB}
     },
     {
     .iv = 100,
@@ -3404,7 +3404,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Brawly1[] = {
     .species = SPECIES_MEDITITE,
 	.ability = 0,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_POWER_UP_PUNCH, MOVE_ZEN_HEADBUTT, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
+    .moves = {MOVE_POWER_UP_PUNCH, MOVE_CONFUSION, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
     },
     {
     .iv = 200,
