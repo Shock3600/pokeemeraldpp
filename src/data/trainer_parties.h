@@ -3421,32 +3421,32 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Wattson1[] = {
     .lvl = 20,
     .species = SPECIES_VOLTORB,
 	.ability = 2,
-    .heldItem = ITEM_LIFE_ORB,
-    .moves = {MOVE_THUNDER_PUNCH, MOVE_RAIN_DANCE, MOVE_THUNDER_WAVE, MOVE_EXPLOSION}
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_EXPLOSION, MOVE_THUNDER_WAVE, MOVE_VOLT_SWITCH, MOVE_THUNDERBOLT}
     },
     {
     .iv = 200,
     .lvl = 20,
     .species = SPECIES_CHINCHOU,
 	.ability = 1,
-    .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_RAIN_DANCE, MOVE_THUNDER_PUNCH, MOVE_HYDRO_PUMP, MOVE_THUNDER_WAVE}
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_WATER_PULSE, MOVE_VOLT_SWITCH, MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE}
     },
     {
     .iv = 220,
     .lvl = 22,
     .species = SPECIES_MAGNETON,
 	.ability = 1,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_MAGNET_RISE, MOVE_FLASH_CANNON, MOVE_THUNDER_PUNCH, MOVE_THUNDER_WAVE}
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_MAGNET_RISE, MOVE_MIRROR_SHOT, MOVE_VOLT_SWITCH, MOVE_THUNDER_WAVE}
     },
     {
     .iv = 250,
     .lvl = 24,
     .species = SPECIES_MANECTRIC,
 	.ability = 1,
-    .heldItem = ITEM_LIFE_ORB,
-    .moves = {MOVE_THUNDER_PUNCH, MOVE_OVERHEAT, MOVE_THUNDER_WAVE, MOVE_VOLT_SWITCH}
+    .heldItem = ITEM_EXPERT_BELT,
+    .moves = {MOVE_VOLT_SWITCH, MOVE_ICE_FANG, MOVE_THUNDER_WAVE, MOVE_VOLT_SWITCH}
     }
 };
 static const struct TrainerMonItemCustomMovesCustomAbility sParty_Flannery1[] = {
