@@ -3396,7 +3396,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Brawly1[] = {
     .species = SPECIES_MACHOP,
 	.ability = 0,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_CLOSE_COMBAT, MOVE_FIRE_PUNCH, MOVE_BULLET_PUNCH, MOVE_ROCK_SLIDE}
+    .moves = {MOVE_POWER_UP_PUNCH, MOVE_BRICK_BREAK, MOVE_KNOCK_OFF, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 100,
@@ -3404,7 +3404,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Brawly1[] = {
     .species = SPECIES_MEDITITE,
 	.ability = 0,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_HI_JUMP_KICK, MOVE_ZEN_HEADBUTT, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
+    .moves = {MOVE_POWER_UP_PUNCH, MOVE_ZEN_HEADBUTT, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
     },
     {
     .iv = 200,
@@ -3412,7 +3412,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Brawly1[] = {
     .species = SPECIES_MAKUHITA,
 	.ability = 0,
     .heldItem = ITEM_FLAME_ORB,
-    .moves = {MOVE_CLOSE_COMBAT, MOVE_FACADE, MOVE_FAKE_OUT, MOVE_BULLET_PUNCH}
+    .moves = {MOVE_POWER_UP_PUNCH, MOVE_FACADE, MOVE_FAKE_OUT, MOVE_BULLET_PUNCH}
     }
 };
 static const struct TrainerMonItemCustomMovesCustomAbility sParty_Wattson1[] = {
