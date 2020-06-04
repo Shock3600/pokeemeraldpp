@@ -3487,7 +3487,7 @@ static const struct TrainerMonItemCustomMovesCustomAbility sParty_Norman1[] = {
     {
     .iv = 200,
     .lvl = 26,
-    .species = SPECIES_EXPLOUD,
+    .species = SPECIES_LOUDRED,
 	.ability = 2,
     .heldItem = ITEM_CHOICE_SPECS,
     .moves = {MOVE_BOOMBURST, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_SURF}
